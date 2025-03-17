@@ -1,7 +1,16 @@
 {% extends 'exams/base.html' %}
 
 {% block content %}
-<h2 class="text-center">Welcome, {{ user.username }}</h2>
-<p class="text-center">This is your dashboard.</p>
-<a href="{% url 'logout' %}" class="btn btn-danger w-100">Logout</a>
+<div class="container">
+    <div class="form-container text-center">
+        <h2>Welcome, {{ user.username }}</h2>
+        <p>This is your dashboard where you can manage your practice tests.</p>
+        
+        <div class="d-grid gap-3 mt-4">
+            <a href="#" class="btn btn-primary btn-lg">Start a Practice Test</a>
+            <a href="#" class="btn btn-secondary btn-lg">View Test History</a>
+            <a href="{% url 'logout' %}" class="btn btn-danger btn-lg">Logout</a>
+        </div>
+    </div>
+</div>
 {% endblock %}
