@@ -4,31 +4,31 @@ from django.shortcuts import render, redirect, get_object_or_404
 from .models import Exam, Question, UserAttempt
 from django.http import HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
-
+from .forms import StyledUserCreationForm, StyledAuthenticationForm
 
 def home_view(request):
     return render(request, 'exams/home.html')
 
 def signup_view(request):
     if request.method == 'POST':
-        form = UserCreationForm(request.POST)
+        form = StyledUserCreationForm(request.POST)
         if form.is_valid():
             user = form.save()
             login(request, user)
             return redirect('dashboard')
     else:
-        form = UserCreationForm()
+        form = StyledUserCreationForm()
     return render(request, 'exams/signup.html', {'form': form})
 
 def login_view(request):
-    if request.method == 'POST':  # If user submits form
-        form = AuthenticationForm(data=request.POST)  # Get submitted data
-        if form.is_valid():  # Check if valid
-            user = form.get_user()  # Get the logged-in user
-            login(request, user)  # Log them in
-            return redirect('dashboard')  # Redirect to dashboard
+    if request.method == 'POST':
+        form = StyledAuthenticationForm(request, data=request.POST)
+        if form.is_valid():
+            user = form.get_user()
+            login(request, user)
+            return redirect('dashboard')
     else:
-        form = AuthenticationForm()  # Show empty login form
+        form = StyledAuthenticationForm()
     return render(request, 'exams/login.html', {'form': form}) 
 
 @login_required

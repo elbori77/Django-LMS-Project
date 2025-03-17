@@ -1,7 +1,7 @@
 {% extends 'exams/base.html' %}
 
 {% block content %}
-<h2>Welcome, {{ user.username }}</h2>
-<p>This is your dashboard.</p>
-<a href="{% url 'logout' %}">Logout</a>
+<h2 class="text-center">Welcome, {{ user.username }}</h2>
+<p class="text-center">This is your dashboard.</p>
+<a href="{% url 'logout' %}" class="btn btn-danger w-100">Logout</a>
 {% endblock %}
