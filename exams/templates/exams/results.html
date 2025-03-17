@@ -1,0 +1,4 @@
+<h2>Your Results</h2>
+{% for attempt in attempts %}
+    <p>{{ attempt.exam.name }}: {{ attempt.score }}%</p>
+{% endfor %}

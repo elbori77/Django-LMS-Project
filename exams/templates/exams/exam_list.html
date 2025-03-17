@@ -1,0 +1,3 @@
+{% for exam in exams %}
+    <p>{{ exam.name }} - <a href="{% url 'take_exam' exam.id %}">Take Exam</a></p>
+{% endfor %}
