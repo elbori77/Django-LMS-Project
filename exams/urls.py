@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import signup_view, login_view, logout_view, exam_list, take_exam, exam_results, home_view, dashboard_view
+from .views import *
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
@@ -12,9 +12,9 @@ urlpatterns = [
     path('exams/<int:exam_id>/', take_exam, name='take_exam'),
     path('results/', exam_results, name='exam_results'),
     
-    path('password_reset/', auth_views.PasswordResetView.as_view(), name='password_reset'),
-    path('password_reset/done/', auth_views.PasswordResetDoneView.as_view(), name='password_reset_done'),
-    path('reset/<uidb64>/<token>/', auth_views.PasswordResetConfirmView.as_view(), name='password_reset_confirm'),
-    path('reset/done/', auth_views.PasswordResetCompleteView.as_view(), name='password_reset_complete'),
+    path('password_reset/', CustomPasswordResetView.as_view(), name='password_reset'),
+    path('password_reset/done/', CustomPasswordResetDoneView.as_view(), name='password_reset_done'),
+    path('reset/<uidb64>/<token>/', CustomPasswordResetConfirmView.as_view(), name='password_reset_confirm'),
+    path('reset/done/', CustomPasswordResetCompleteView.as_view(), name='password_reset_complete'),
     
 ]

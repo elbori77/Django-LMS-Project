@@ -1,10 +1,10 @@
 from django.contrib.auth import login, logout, authenticate
-from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+from django.contrib.auth.views import PasswordResetView, PasswordResetDoneView, PasswordResetConfirmView, PasswordResetCompleteView
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Exam, Question, UserAttempt
-from django.http import HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
-from .forms import StyledUserCreationForm, StyledAuthenticationForm
+from .forms import StyledUserCreationForm, StyledAuthenticationForm, StyledPasswordResetForm, StyledSetPasswordForm
+from django.urls import reverse_lazy
 
 def home_view(request):
     return render(request, 'exams/home.html')
@@ -64,3 +64,19 @@ def exam_results(request):
     attempts = UserAttempt.objects.filter(user=request.user)
     return render(request, 'exams/results.html', {'attempts': attempts})
 
+# Custom Password Reset Views
+class CustomPasswordResetView(PasswordResetView):
+    template_name = 'registration/password_reset_form.html'
+    form_class = StyledPasswordResetForm
+    success_url = reverse_lazy('password_reset_done')
+
+class CustomPasswordResetDoneView(PasswordResetDoneView):
+    template_name = 'registration/password_reset_done.html'
+
+class CustomPasswordResetConfirmView(PasswordResetConfirmView):
+    template_name = 'registration/password_reset_confirm.html'
+    form_class = StyledSetPasswordForm
+    success_url = reverse_lazy('password_reset_complete')
+
+class CustomPasswordResetCompleteView(PasswordResetCompleteView):
+    template_name = 'registration/password_reset_complete.html'
