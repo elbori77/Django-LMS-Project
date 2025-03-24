@@ -1,3 +1,84 @@
-{% for exam in exams %}
-    <p>{{ exam.name }} - <a href="{% url 'take_exam' exam.id %}">Take Exam</a></p>
-{% endfor %}
+{% extends 'exams/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Select a Practice Exam</h2>
+    <div class="row justify-content-center g-4">
+        <div class="col-md-4">
+            <div class="card h-100 shadow text-center">
+                <div class="card-body">
+                    <h3 class="card-title">A+ Practice Exam</h3>
+                    <p class="card-text">Test your knowledge for the CompTIA A+ certification.</p>
+                    <form method="get" target="_blank" action="{% url 'take_exam' 1 %}" class="start-exam-form" data-exam="A+ Practice Exam">
+                        <button type="submit" class="btn btn-primary">Start A+ Exam</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow text-center">
+                <div class="card-body">
+                    <h3 class="card-title">Network+ Practice Exam</h3>
+                    <p class="card-text">Test your knowledge for the CompTIA Network+ certification.</p>
+                    <form method="get" target="_blank" action="{% url 'take_exam' 2 %}" class="start-exam-form" data-exam="Network+ Practice Exam">
+                        <button type="submit" class="btn btn-primary">Start Network+ Exam</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow text-center">
+                <div class="card-body">
+                    <h3 class="card-title">Security+ Practice Exam</h3>
+                    <p class="card-text">Test your knowledge for the CompTIA Security+ certification.</p>
+                    <form method="get" target="_blank" action="{% url 'take_exam' 3 %}" class="start-exam-form" data-exam="Security+ Practice Exam">
+                        <button type="submit" class="btn btn-primary">Start Security+ Exam</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    let pendingForm = null;
+
+    const modal = new bootstrap.Modal(document.getElementById('confirmModal'));
+    const modalBody = document.getElementById('confirmModalBody');
+    const modalYesBtn = document.getElementById('confirmModalYes');
+
+    document.querySelectorAll('.start-exam-form').forEach(form => {
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            pendingForm = form;
+
+            const examName = form.dataset.exam || 'this exam';
+            modalBody.innerHTML = `
+                <p>You’re about to begin the <strong>${examName}</strong>.</p>
+                <ul class="mb-2">
+                  <li>⏱ You have 90 minutes to complete 90 questions.</li>
+                  <li>📝 The test includes multiple-choice, drag-and-drop, and performance-based questions.</li>
+                  <li>🚫 Once started, the timer cannot be paused.</li>
+                </ul>
+                <p>Are you ready to begin?</p>
+            `;
+            modal.show();
+        });
+    });
+
+    modalYesBtn.onclick = function () {
+        if (pendingForm) {
+            pendingForm.submit();
+            setTimeout(() => {
+                location.href = '/accounts/dashboard/';
+            }, 1000);
+        }
+    };
+});
+</script>
+
+{% endblock %}

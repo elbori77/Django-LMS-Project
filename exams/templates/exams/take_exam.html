@@ -1,12 +1,87 @@
-<h2>{{ exam.name }}</h2>
-<form method="post">
+{% extends 'exams/base.html' %}
+{% block content %}
+<h2>Taking {{ exam.name }}</h2>
+<form method="post" id="examForm">
     {% csrf_token %}
-    {% for question in questions %}
-        <p>{{ question.text }}</p>
-        <label><input type="radio" name="question_{{ question.id }}" value="A"> {{ question.option_a }}</label>
-        <label><input type="radio" name="question_{{ question.id }}" value="B"> {{ question.option_b }}</label>
-        <label><input type="radio" name="question_{{ question.id }}" value="C"> {{ question.option_c }}</label>
-        <label><input type="radio" name="question_{{ question.id }}" value="D"> {{ question.option_d }}</label>
+    <input type="hidden" name="start_time" value="{{ start_time }}">
+    <input type="hidden" name="answers" id="answers">
+
+    <div class="mb-3">
+        <div id="timer" class="fixed-timer"></div>
+
+    </div>
+
+    {% for q in questions %}
+        <div class="card mb-3">
+            <div class="card-body">
+                <p><strong>Q{{ forloop.counter }}:</strong> {{ q.text }}</p>
+                {% if q.question_type == 'multiple_choice' %}
+                    <div class="form-check">
+                        <input type="radio" name="q{{ q.id }}" value="A" class="form-check-input"> {{ q.option_a }}
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q{{ q.id }}" value="B" class="form-check-input"> {{ q.option_b }}
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q{{ q.id }}" value="C" class="form-check-input"> {{ q.option_c }}
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q{{ q.id }}" value="D" class="form-check-input"> {{ q.option_d }}
+                    </div>
+                {% else %}
+                    <p><em>Simulation or matching question. Details shown during real exam.</em></p>
+                {% endif %}
+            </div>
+        </div>
     {% endfor %}
-    <button type="submit">Submit</button>
+
+    <button type="submit" class="btn btn-success">Submit Exam</button>
 </form>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('examForm');
+        const answersEl = document.getElementById('answers');
+        const timerEl = document.getElementById('timer');
+        const startTimeStr = document.querySelector('input[name="start_time"]').value;
+        const startTime = new Date(startTimeStr);
+        const endTime = new Date(startTime.getTime() + 90 * 60 * 1000); // +90 mins
+    
+        function updateTimer() {
+            const now = new Date();
+            const diff = endTime - now;
+            if (diff <= 0) {
+                timerEl.textContent = "Time left: 0m 00s";
+                alert("⏰ Time is up! Submitting your exam.");
+                submitAnswers();
+                clearInterval(interval);
+                return;
+            }
+    
+            const totalSeconds = Math.floor(diff / 1000);
+            const minutes = Math.floor(totalSeconds / 60);
+            const seconds = totalSeconds % 60;
+            timerEl.textContent = `Time left: ${minutes}m ${seconds < 10 ? '0' + seconds : seconds}s`;
+        }
+    
+        function submitAnswers() {
+            const data = {};
+            document.querySelectorAll("input[type='radio']:checked").forEach(input => {
+                const qid = input.name.replace('q', '');
+                data[qid] = input.value;
+            });
+            answersEl.value = JSON.stringify(data);
+            form.submit();
+        }
+    
+        const interval = setInterval(updateTimer, 1000);
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            submitAnswers();
+        });
+    
+        updateTimer(); // display first tick right away
+    });
+    </script>
+    
+{% endblock %}
