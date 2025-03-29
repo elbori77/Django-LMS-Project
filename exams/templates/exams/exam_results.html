@@ -4,7 +4,7 @@
 <div class="container mt-5">
     <div class="text-center mb-4">
         <h2>{{ exam.name }} Results</h2>
-        <p><strong>Date Taken:</strong> {{ time_taken|date:"M d, Y H:i" }}</p>
+        <p><strong>Date Taken:</strong> {{ timestamp|date:"M d, Y H:i" }}</p>
         <p><strong>Time Spent:</strong> {{ time_taken }}</p>
         <p><strong>Score:</strong> {{ score }} / 900</p>
         <p>

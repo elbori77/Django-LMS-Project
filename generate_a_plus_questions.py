@@ -9,9 +9,7 @@ django.setup()
 from exams.models import Question, Exam
 
 fake = Faker()
-
-# Make sure Exam ID 1 is A+
-exam = Exam.objects.get(id=1)
+exam = Exam.objects.get(id=1)  # A+ Exam
 
 hardware_terms = ['CPU', 'RAM', 'SSD', 'GPU', 'BIOS', 'motherboard']
 os_terms = ['Windows 10', 'Linux', 'macOS', 'File Explorer', 'Task Manager']
@@ -30,7 +28,6 @@ def generate_multiple_choice():
     question = f"What component is most likely responsible for {fake.sentence(nb_words=5)}?"
     options = random.sample(hardware_terms + os_terms, 4)
     correct = random.choice(['A', 'B', 'C', 'D'])
-
     return Question(
         exam=exam,
         text=question,
@@ -51,35 +48,32 @@ def generate_drag_and_drop():
         extra_data={'pairs': {k: v for k, v in sample}}
     )
 
-def generate_performance_based():
-    task = f"Demonstrate how to {fake.sentence(nb_words=6)} using Windows 10."
+def generate_true_false():
+    statement = f"{fake.word().capitalize()} is a type of input device."
+    answer = random.choice(['A', 'B'])  # A = True, B = False
     return Question(
         exam=exam,
-        text="Simulate this task:",
-        question_type='performance_based',
-        extra_data={
-            'task': task,
-            'steps_required': random.randint(2, 4)
-        }
+        text=statement,
+        question_type='true_false',
+        option_a="True",
+        option_b="False",
+        correct_option=answer
     )
 
 def run():
-    Question.objects.filter(exam=exam).delete()  # Clean slate
+    Question.objects.filter(exam=exam).delete()
     all_questions = []
 
-    for _ in range(240):
+    for _ in range(220):
         all_questions.append(generate_multiple_choice())
-
-    for _ in range(30):
+    for _ in range(40):
         all_questions.append(generate_drag_and_drop())
-
-    for _ in range(30):
-        all_questions.append(generate_performance_based())
+    for _ in range(40):
+        all_questions.append(generate_true_false())
 
     random.shuffle(all_questions)
     Question.objects.bulk_create(all_questions)
-
-    print(f"✅ Generated {len(all_questions)} A+ questions for Exam ID {exam.id}")
+    print(f"✅ A+ questions generated: {len(all_questions)}")
 
 if __name__ == '__main__':
     run()

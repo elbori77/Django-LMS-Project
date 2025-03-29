@@ -9,7 +9,7 @@ django.setup()
 from exams.models import Question, Exam
 
 fake = Faker()
-exam = Exam.objects.get(id=3)
+exam = Exam.objects.get(id=3)  # Security+ Exam
 
 attack_types = ['phishing', 'ransomware', 'SQL injection', 'DDoS', 'man-in-the-middle']
 concepts = ['confidentiality', 'integrity', 'availability', 'authentication', 'non-repudiation']
@@ -43,26 +43,32 @@ def generate_drag_and_drop():
         extra_data={'pairs': {k: v for k, v in sample}}
     )
 
-def generate_performance_based():
-    task = f"Design an access control policy that ensures the principle of least privilege."
+def generate_true_false():
+    statement = f"{random.choice(concepts).capitalize()} ensures that only authorized parties can access information."
+    answer = random.choice(['A', 'B'])  # A = True, B = False
     return Question(
         exam=exam,
-        text="Simulate this security task:",
-        question_type='performance_based',
-        extra_data={
-            'task': task,
-            'steps_required': random.randint(2, 4)
-        }
+        text=statement,
+        question_type='true_false',
+        option_a="True",
+        option_b="False",
+        correct_option=answer
     )
 
 def run():
     Question.objects.filter(exam=exam).delete()
-    questions = [generate_multiple_choice() for _ in range(240)]
-    questions += [generate_drag_and_drop() for _ in range(30)]
-    questions += [generate_performance_based() for _ in range(30)]
+    questions = []
+
+    for _ in range(220):
+        questions.append(generate_multiple_choice())
+    for _ in range(40):
+        questions.append(generate_drag_and_drop())
+    for _ in range(40):
+        questions.append(generate_true_false())
+
     random.shuffle(questions)
     Question.objects.bulk_create(questions)
-    print(f"✅ Security+ Questions Generated: {len(questions)}")
+    print(f"✅ Security+ questions generated: {len(questions)}")
 
 if __name__ == '__main__':
     run()

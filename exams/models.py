@@ -9,7 +9,7 @@ class Question(models.Model):
     QUESTION_TYPES = [
         ('multiple_choice', 'Multiple Choice'),
         ('drag_and_drop', 'Drag and Drop'),
-        ('performance_based', 'Performance-Based'),
+        ('true_false', 'True/False'),
     ]
 
     exam = models.ForeignKey(Exam, on_delete=models.CASCADE)

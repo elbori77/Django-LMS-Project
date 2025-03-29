@@ -7,7 +7,7 @@ from .forms import StyledUserCreationForm, StyledAuthenticationForm, StyledPassw
 from django.urls import reverse_lazy
 from datetime import datetime
 from django.utils import timezone
-import random
+import random, json
 from django.utils.dateparse import parse_datetime
 from django.utils.timezone import now
 
@@ -50,54 +50,50 @@ def exam_list(request):
 
 @login_required
 def take_exam(request, exam_id):
-    
     exam = get_object_or_404(Exam, id=exam_id)
-     
-    # ✅ Session key for this exam
-    exam_key = f'exam_{exam_id}_questions'
-
-    # ✅ Load existing question IDs from session if present
-    question_ids = request.session.get(exam_key)
-    if question_ids:
-        questions = list(Question.objects.filter(id__in=question_ids))
-        # Ensure original order (Django doesn't preserve list order)
-        questions.sort(key=lambda q: question_ids.index(q.id))
-    else:
-        questions = list(Question.objects.filter(exam=exam))
-        random.shuffle(questions)
-        questions = questions[:90]
-        # ✅ Save to session
-        request.session[exam_key] = [q.id for q in questions]
-        request.session['exam_start_time'] = timezone.now().isoformat()
+    questions = list(Question.objects.filter(exam=exam))
+    random.shuffle(questions)
+    selected_questions = questions[:90]
 
     if request.method == 'POST':
-        correct_answers = 0
+        answers = json.loads(request.POST.get('answers', '{}'))
+        start_time = request.POST.get('start_time')
+        correct = 0
         feedback = {}
 
-        for question in questions:
-            user_answer = request.POST.get(f'question_{question.id}')
-            if question.question_type == 'multiple_choice':
-                if user_answer == question.correct_option:
-                    correct_answers += 1
+        for q in selected_questions:
+            qid = str(q.id)
+            user_answer = answers.get(qid)
+
+            correct_letter = q.correct_option or ''
+            correct_text = getattr(q, f'option_{correct_letter.lower()}', '') if correct_letter else ''
+
+            if q.question_type in ['multiple_choice', 'true_false']:
+                if user_answer == correct_letter:
+                    correct += 1
                 else:
-                    feedback[question.text] = {
-                        'your_answer': user_answer,
-                        'correct_answer': question.correct_option
+                    feedback[q.text] = {
+                        'your_answer': user_answer or "No answer",
+                        'correct_answer': f"{correct_letter}: {correct_text}"
                     }
-            else:
-                feedback[question.text] = {
-                    'your_answer': user_answer,
-                    'correct_answer': '[manual grading required]'
-                }
 
-        percent = (correct_answers / len(questions)) * 100
-        scaled_score = int((percent / 100) * 800 + 100)
-        passed = scaled_score >= 750
+            elif q.question_type == 'drag_and_drop':
+                pass  # DnD grading if needed
+    
 
-        start_time = parse_datetime(request.session.get('exam_start_time'))
-        end_time = timezone.now()
-        time_taken = end_time - start_time
+        # CompTIA scaled score (100–900)
+        scaled_score = round(100 + ((correct / 90) * 800))
+        passed = scaled_score >= 720
 
+        # Parse time
+        start_dt = timezone.datetime.fromisoformat(start_time)
+        time_taken = timezone.now() - start_dt
+        time_taken_str = str(time_taken).split('.')[0]  # removes microseconds
+
+        
+
+
+        # Save attempt
         UserAttempt.objects.create(
             user=request.user,
             exam=exam,
@@ -106,17 +102,22 @@ def take_exam(request, exam_id):
             feedback=feedback
         )
 
-        # ✅ Clean up session
-        request.session.pop(exam_key, None)
-        request.session.pop('exam_start_time', None)
-
-        return render(request, 'exams/results.html', {
+        # Show result page immediately
+        return render(request, 'exams/exam_results.html', {
             'exam': exam,
             'score': scaled_score,
+            'time_taken': time_taken_str,
             'passed': passed,
             'feedback': feedback,
-            'time_taken': time_taken
+            'timestamp': timezone.now(),
         })
+
+    return render(request, 'exams/take_exam.html', {
+        'exam': exam,
+        'questions': selected_questions,
+        'start_time': timezone.now().isoformat()
+    })
+
 
     exam_start_time_str = request.session.get('exam_start_time')
     if exam_start_time_str:
@@ -137,7 +138,7 @@ def take_exam(request, exam_id):
 
 def exam_results(request):
     attempts = UserAttempt.objects.filter(user=request.user)
-    return render(request, 'exams/results.html', {'attempts': attempts})
+    return render(request, 'exams/exam_results.html', {'attempts': attempts})
 
 #Scoreboard View
 @login_required
