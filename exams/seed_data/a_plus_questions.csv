@@ -1,0 +1,301 @@
+text,option_a,option_b,option_c,option_d,correct_option,question_type,extra_data
+What type of connector is used for wired Ethernet?,RJ-45,USB,HDMI,RJ-11,A,multiple_choice,
+Which expansion slot is most commonly used for graphics cards today?,PCI,AGP,PCIe,ISA,C,multiple_choice,
+Which of the following memory types is volatile?,ROM,Flash,RAM,EEPROM,C,multiple_choice,
+What component is responsible for starting POST?,HDD,BIOS,GPU,SSD,B,multiple_choice,
+Which file system is default for Windows 10?,FAT32,EXT4,NTFS,HFS+,C,multiple_choice,
+Which device provides power to all internal components?,CPU,Motherboard,PSU,RAM,C,multiple_choice,
+Which Windows utility partitions and formats drives?,ipconfig,diskpart,msconfig,dxdiag,B,multiple_choice,
+Which RAID level mirrors data for redundancy?,RAID 0,RAID 1,RAID 5,RAID 10,B,multiple_choice,
+Which cable is least susceptible to interference?,UTP,STP,Coaxial,Fiber Optic,D,multiple_choice,
+Which command shows IP configuration in Windows?,netstat,ipconfig,tracert,ping,B,multiple_choice,
+Which laptop component is often proprietary?,CPU,GPU,RAM,Keyboard,B,multiple_choice,
+What kind of device is used to control multiple computers with one set of peripherals?,Router,KVM Switch,Hub,Switch,B,multiple_choice,
+Which type of display uses liquid crystals?,LED,LCD,CRT,OLED,B,multiple_choice,
+Which connector is used to output video and audio?,HDMI,VGA,DisplayPort,USB-A,A,multiple_choice,
+Which command-line tool checks disk integrity?,format,chkdsk,netstat,bootrec,B,multiple_choice,
+Which printer type uses toner?,Inkjet,Daisy-wheel,Dot-matrix,Laser,D,multiple_choice,
+Which of the following is a mobile operating system?,macOS,Linux,Android,Windows Server,C,multiple_choice,
+Which Wi-Fi standard operates on 5 GHz only?,802.11a,802.11b,802.11g,802.11n,A,multiple_choice,
+Which feature lets you boot an OS from a flash drive?,Virtualization,Secure Boot,UEFI Boot,BIOS Boot Order,C,multiple_choice,
+Which Windows tool creates a restore point?,Device Manager,System Restore,Task Scheduler,Event Viewer,B,multiple_choice,
+Which cloud model provides hardware only?,PaaS,SaaS,IaaS,FaaS,C,multiple_choice,
+What kind of device can connect a network to the internet?,Switch,Firewall,Router,Repeater,C,multiple_choice,
+Which connector has 24 pins and powers a motherboard?,4-pin Molex,6-pin PCIe,24-pin ATX,8-pin EPS,C,multiple_choice,
+Which technology allows you to connect external GPU to a laptop?,USB-C,Thunderbolt,HDMI,eSATA,B,multiple_choice,
+Which tool is used to crimp RJ-45 connectors?,Punchdown tool,Loopback plug,Cable tester,Crimper,D,multiple_choice
+Which device allows multiple computers to share a single internet connection?,Router,Modem,Switch,Hub,A,multiple_choice,
+Which command shows open ports and connections?,ipconfig,tracert,netstat,ping,C,multiple_choice,
+Which of these is a biometric authentication method?,Password,Smart card,Fingerprint,PIN,C,multiple_choice,
+Which storage device uses magnetic platters?,SSD,Flash Drive,HDD,SD Card,C,multiple_choice,
+Which protocol does ping use?,TCP,UDP,ICMP,FTP,C,multiple_choice,
+Which component improves system cooling?,Power Supply,Heatsink,CMOS,Northbridge,B,multiple_choice,
+Which tool would help with cable management inside a PC?,Anti-static strap,Thermal paste,Zip ties,POST card,C,multiple_choice,
+What’s the minimum number of disks required for RAID 5?,2,3,4,5,B,multiple_choice,
+Which expansion slot is obsolete today?,PCIe,PCI,AGP,USB,C,multiple_choice,
+What technology protects BIOS settings?,SRAM,EEPROM,CMOS,Cache,C,multiple_choice,
+Which of these is a valid IPv4 address?,192.168.1.256,10.0.0.1,300.1.1.1,123.456.78.90,B,multiple_choice,
+Which wireless standard introduced MIMO?,802.11a,802.11b,802.11g,802.11n,D,multiple_choice,
+Which command repairs the boot sector?,sfc /scannow,chkdsk,bootrec /fixboot,format,C,multiple_choice,
+Which cable can transmit video and audio digitally?,VGA,DVI,HDMI,DisplayPort,C,multiple_choice,
+Which component has the fastest data access?,DVD,HDD,SSD,Tape,C,multiple_choice,
+Which backup method captures the whole system?,Differential,Full,Incremental,Partial,B,multiple_choice,
+Which of these is a Windows recovery environment tool?,Safe Mode,Event Viewer,WinRE,System Info,C,multiple_choice,
+Which setting allows devices to wake a PC?,Hibernate,Wake-on-LAN,Sleep,Fast Startup,B,multiple_choice,
+Which port is used for secure web traffic?,20,21,80,443,D,multiple_choice,
+Which Windows tool helps reduce file fragmentation?,defrag,sfc,msconfig,dxdiag,A,multiple_choice,
+Which of these devices is used to digitize physical documents?,Printer,Scanner,Monitor,Speaker,B,multiple_choice,
+Which of these ports supports analog video output?,HDMI,VGA,DisplayPort,USB-B,B,multiple_choice,
+Which port is used for FTP data transfer?,21,22,20,80,C,multiple_choice,
+Which mobile device feature turns off all wireless?,Airplane mode,Wi-Fi hotspot,Bluetooth,Mobile data,A,multiple_choice,
+What is the purpose of thermal paste?,Insulate the CPU,Block heat,Transfer heat,Mount the CPU,C,multiple_choice
+Which tool checks for corrupted Windows files?,msconfig,sfc /scannow,regedit,dxdiag,B,multiple_choice,
+What is a common reason a laptop battery stops charging?,Damaged screen,Loose keyboard,Bad AC adapter,Incompatible OS,C,multiple_choice,
+What is the purpose of BIOS?,Manage applications,Start the OS,Control hardware settings,Format drives,C,multiple_choice,
+Which Windows edition supports joining a domain?,Home,Pro,Starter,Education,B,multiple_choice,
+Which connector is used for analog audio?,VGA,RJ-45,3.5mm,HDMI,C,multiple_choice,
+What device expands USB ports?,Switch,USB hub,Repeater,Firewall,B,multiple_choice,
+What is a benefit of cloud storage?,Requires no internet,Limited space,Global accessibility,Manual backup required,C,multiple_choice,
+Which of these is a valid MAC address?,00:1G:ZZ:34:67:89,192.168.0.1,00:1A:2B:3C:4D:5E,255.255.255.0,C,multiple_choice,
+Which command releases a DHCP IP?,netstat,tracert,ipconfig /release,sfc /scannow,C,multiple_choice,
+Which setting in BIOS improves boot speed?,Virtualization,Secure Boot,Fast Boot,TPM,C,multiple_choice,
+Which device uses a print head to form characters?,Inkjet,Laser,Dot-matrix,Thermal,C,multiple_choice,
+Which utility allows you to manage startup apps?,cmd,msconfig,ipconfig,chkdsk,B,multiple_choice,
+Which command-line tool tests network reachability?,ipconfig,nslookup,ping,tracert,C,multiple_choice,
+Which of these protocols is used to encrypt web traffic?,FTP,HTTP,SFTP,HTTPS,D,multiple_choice,
+What is the main function of a UPS?,Boost Wi-Fi,Store data,Backup power,Connect LANs,C,multiple_choice,
+Which tool checks disk surface for bad sectors?,defrag,chkdsk,ipconfig,sfc,B,multiple_choice,
+Which component is most likely to fail due to movement?,SSD,HDD,CPU,GPU,B,multiple_choice,
+What is the primary benefit of an SSD over an HDD?,Lower cost,More capacity,Quieter performance,Faster access speed,D,multiple_choice,
+Which command flushes the DNS cache?,ipconfig /flushdns,nslookup,ping localhost,chkdsk,A,multiple_choice,
+What is the purpose of UEFI?,Encrypt drives,Provide networking,Improve boot options,Assign user roles,C,multiple_choice,
+Which display tech offers true blacks?,CRT,LCD,TN,OLED,D,multiple_choice,
+What is the first step in the troubleshooting process?,Establish theory,Test the fix,Identify the problem,Document findings,C,multiple_choice,
+What connector is used for coaxial cable?,RJ-45,USB-B,BNC,SC,C,multiple_choice,
+Which port is used by SMTP?,80,443,25,53,C,multiple_choice,
+Which command shows the route taken to a host?,netstat,tracert,sfc,nslookup,B,multiple_choice
+Which command repairs corrupted system files?,sfc /scannow,ipconfig /renew,format /fs:ntfs,shutdown -r,A,multiple_choice,
+Which Windows feature prevents unauthorized OS changes?,Firewall,Secure Boot,BITLocker,User Account Control,D,multiple_choice,
+Which setting in BIOS protects against rootkits?,VT-x,HyperThreading,TPM,Secure Boot,D,multiple_choice,
+Which tool is used to install an OS via network?,USB boot,ISO image,Netboot,PXE boot,D,multiple_choice,
+Which of the following describes phishing?,Hardware failure,Software update,Social engineering,Physical theft,C,multiple_choice,
+Which type of malware locks access to your files?,Trojan,Ransomware,Spyware,Worm,B,multiple_choice,
+Which connector is used for telephone lines?,RJ-45,USB,RJ-11,BNC,C,multiple_choice,
+What component stores the system clock and BIOS settings?,RAM,SSD,CMOS,CPU,C,multiple_choice,
+Which wireless encryption is most secure?,WEP,WPA,WPA2,WPA2-PSK with AES,D,multiple_choice,
+Which key opens Advanced Boot Options in Windows?,F1,F2,F5,F8,D,multiple_choice,
+Which command creates a partition on a new disk?,fdisk,ipconfig,sfc,diskmgmt.msc,A,multiple_choice,
+What is used to uniquely identify a device on a LAN?,MAC address,IP address,Subnet mask,Hostname,A,multiple_choice,
+What kind of attack floods a system with traffic?,Phishing,Ransomware,DoS,Brute force,C,multiple_choice,
+What is a benefit of virtualization?,Less hardware dependency,Increased latency,No backups needed,Offline-only use,A,multiple_choice,
+Which feature allows multiple OS installs?,RAID,Dual boot,Boot order,AHCI,B,multiple_choice,
+Which is the default port for DNS?,53,80,110,443,A,multiple_choice,
+Which printer uses thermal paper?,Laser printer,Dot-matrix,Thermal printer,Inkjet,C,multiple_choice,
+Which type of IP address does not change?,Private,Static,Dynamic,Classless,B,multiple_choice,
+Which of the following uses infrared for data transfer?,Bluetooth,NFC,IR,RFID,C,multiple_choice,
+What is the purpose of BIOS passwords?,Speed up boot,Overclock CPU,Prevent unauthorized changes,Update firmware,C,multiple_choice,
+Which component connects to CPU and RAM?,Hard drive,Northbridge,Southbridge,Power supply,B,multiple_choice,
+What is the function of DHCP?,Send email,Print documents,Assign IP addresses,Encrypt passwords,C,multiple_choice,
+Which tool helps determine faulty RAM?,Windows Memory Diagnostic,chkdsk,sfc,dxdiag,A,multiple_choice,
+Which key is used to enter BIOS on most PCs?,F1,F2,F8,F12,B,multiple_choice,
+Which connector is used for high-speed storage devices?,USB 2.0,eSATA,FireWire,VGA,B,multiple_choice
+POST is responsible for initializing hardware during boot.,True,False,,,A,true_false,
+An SSD contains spinning platters.,True,False,,,B,true_false,
+BIOS settings are stored in RAM.,True,False,,,B,true_false,
+The Windows Task Manager can monitor system performance.,True,False,,,A,true_false,
+RJ-45 connectors are used for Ethernet connections.,True,False,,,A,true_false,
+A MAC address can change automatically like an IP address.,True,False,,,B,true_false,
+LCDs require a backlight to function.,True,False,,,A,true_false,
+Thermal paste is used between CPU and heatsink.,True,False,,,A,true_false,
+A laser printer uses ink cartridges.,True,False,,,B,true_false,
+You can connect a USB-C device to a USB-A port.,True,False,,,B,true_false,
+WEP is more secure than WPA2.,True,False,,,B,true_false,
+A full system backup includes system files and applications.,True,False,,,A,true_false,
+FAT32 supports files larger than 4GB.,True,False,,,B,true_false,
+The sfc /scannow command checks system file integrity.,True,False,,,A,true_false,
+IPv6 addresses are 128 bits long.,True,False,,,A,true_false,
+Safe Mode loads all drivers and startup programs.,True,False,,,B,true_false,
+An RJ-11 connector is used for DSL connections.,True,False,,,A,true_false,
+Virtual memory uses storage space to simulate RAM.,True,False,,,A,true_false,
+A firewall blocks unwanted network traffic.,True,False,,,A,true_false,
+USB 3.0 is slower than USB 2.0.,True,False,,,B,true_false,
+PXE boot is used for network installations.,True,False,,,A,true_false,
+A printer spooler manages print jobs.,True,False,,,A,true_false,
+Multimeter can measure voltage and resistance.,True,False,,,A,true_false,
+BIOS and UEFI perform the same initial startup function.,True,False,,,A,true_false,
+HDMI supports both video and audio.,True,False,,,A,true_false
+The ipconfig /all command shows MAC addresses.,True,False,,,A,true_false,
+FAT32 is the most secure file system for Windows.,True,False,,,B,true_false,
+Mobile hotspots use cellular networks for connectivity.,True,False,,,A,true_false,
+You can install Windows from a USB flash drive.,True,False,,,A,true_false,
+RAID 0 provides fault tolerance.,True,False,,,B,true_false,
+HDDs are more durable than SSDs.,True,False,,,B,true_false,
+A firewall filters incoming and outgoing network traffic.,True,False,,,A,true_false,
+The netstat command displays network connections.,True,False,,,A,true_false,
+The Device Manager can disable hardware.,True,False,,,A,true_false,
+A punchdown tool is used for network cables.,True,False,,,A,true_false,
+Bluetooth uses radio waves for communication.,True,False,,,A,true_false,
+Power supplies are measured in volts.,True,False,,,B,true_false,
+sfc /scannow can fix corrupted system files.,True,False,,,A,true_false,
+Ping tests DNS resolution.,True,False,,,B,true_false,
+The primary function of RAM is permanent storage.,True,False,,,B,true_false,
+Most laptops use SODIMM memory.,True,False,,,A,true_false,
+Thermal printers use ink to create images.,True,False,,,B,true_false,
+A computer cannot function without an operating system.,True,False,,,B,true_false,
+Hibernation uses less power than Sleep mode.,True,False,,,A,true_false,
+Cloud backups are stored on local disks.,True,False,,,B,true_false,
+BIOS time resets if the CMOS battery dies.,True,False,,,A,true_false,
+You can configure BIOS using Windows Control Panel.,True,False,,,B,true_false,
+DNS resolves domain names to IP addresses.,True,False,,,A,true_false,
+IP addresses are unique across the globe.,True,False,,,B,true_false,
+System Restore affects personal files.,True,False,,,B,true_false
+PXE boot allows a system to boot from the network.,True,False,,,A,true_false,
+A loopback plug is used for testing NICs.,True,False,,,A,true_false,
+Defragmenting an SSD improves performance.,True,False,,,B,true_false,
+A surge protector helps prevent electrical damage.,True,False,,,A,true_false,
+HDMI supports 4K resolution.,True,False,,,A,true_false,
+The Windows Registry stores system configuration data.,True,False,,,A,true_false,
+A dynamic IP changes periodically.,True,False,,,A,true_false,
+A KVM switch connects multiple displays.,True,False,,,B,true_false,
+BitLocker encrypts entire drives.,True,False,,,A,true_false,
+All SATA drives use the same connector type.,True,False,,,B,true_false,
+A system unit includes the monitor.,True,False,,,B,true_false,
+Antivirus software removes physical viruses.,True,False,,,B,true_false,
+A NAS device stores data for multiple users.,True,False,,,A,true_false,
+You can hot-swap a SATA drive on all systems.,True,False,,,B,true_false,
+The BIOS password protects against unauthorized changes.,True,False,,,A,true_false,
+Wi-Fi uses coaxial cable.,True,False,,,B,true_false,
+CHAP is a wireless encryption protocol.,True,False,,,B,true_false,
+DisplayPort can daisy-chain monitors.,True,False,,,A,true_false,
+POST errors may be indicated by beep codes.,True,False,,,A,true_false,
+An ISO file is a disk image.,True,False,,,A,true_false,
+Laptops are generally less upgradable than desktops.,True,False,,,A,true_false,
+sfc /scannow must be run in Safe Mode.,True,False,,,B,true_false,
+The BIOS can enable or disable onboard devices.,True,False,,,A,true_false,
+USB 3.1 is slower than USB 2.0.,True,False,,,B,true_false,
+Thermal printers require special paper.,True,False,,,A,true_false
+Windows Update installs feature and security patches.,True,False,,,A,true_false,
+A hub sends data only to the intended device.,True,False,,,B,true_false,
+RAID 1 duplicates data across drives.,True,False,,,A,true_false,
+The CPU executes program instructions.,True,False,,,A,true_false,
+A crossover cable connects two similar devices directly.,True,False,,,A,true_false,
+IPv6 uses 32-bit addresses.,True,False,,,B,true_false,
+UEFI replaces traditional BIOS on newer systems.,True,False,,,A,true_false,
+A computer must pass POST before it can boot.,True,False,,,A,true_false,
+A repeater strengthens and retransmits signals.,True,False,,,A,true_false,
+Thermal paste increases heat transfer efficiency.,True,False,,,A,true_false,
+An HDMI cable can carry Ethernet.,True,False,,,A,true_false,
+A static IP is manually assigned.,True,False,,,A,true_false,
+Bluetooth typically has a longer range than Wi-Fi.,True,False,,,B,true_false,
+The ping command measures latency.,True,False,,,A,true_false,
+You can install two operating systems using dual boot.,True,False,,,A,true_false,
+A stylus can be used as an input device.,True,False,,,A,true_false,
+The Windows Event Viewer tracks system logs.,True,False,,,A,true_false,
+RJ-11 connectors are commonly used for Ethernet.,True,False,,,B,true_false,
+Power cycling a device is part of troubleshooting.,True,False,,,A,true_false,
+DHCP assigns IP addresses automatically.,True,False,,,A,true_false,
+The command format C: /q deletes files irreversibly.,True,False,,,A,true_false,
+The GPU renders images and video.,True,False,,,A,true_false,
+LCDs produce images without backlighting.,True,False,,,B,true_false,
+The Windows Recovery Environment (WinRE) includes system restore.,True,False,,,A,true_false,
+NFC requires close proximity to communicate.,True,False,,,A,true_false
+Match the ports to their services.,,,,,,drag_and_drop,"{""22"": ""SSH"", ""80"": ""HTTP"", ""443"": ""HTTPS""}"
+Match the connectors to their uses.,,,,,,drag_and_drop,"{""RJ-45"": ""Ethernet"", ""HDMI"": ""Video/Audio"", ""USB-C"": ""Data/Power""}"
+Match Windows tools to their functions.,,,,,,drag_and_drop,"{""sfc"": ""Check system files"", ""chkdsk"": ""Check disk"", ""diskpart"": ""Manage partitions""}"
+Match storage types to characteristics.,,,,,,drag_and_drop,"{""SSD"": ""Fast/no moving parts"", ""HDD"": ""Large capacity"", ""Optical"": ""Removable media""}"
+Match cable types to media.,,,,,,drag_and_drop,"{""STP"": ""Shielded twisted pair"", ""UTP"": ""Unshielded twisted pair"", ""Fiber"": ""Light-based""}"
+Match wireless security standards.,,,,,,drag_and_drop,"{""WEP"": ""Weak"", ""WPA2"": ""Strong"", ""WPA"": ""Moderate""}"
+Match command-line tools.,,,,,,drag_and_drop,"{""ipconfig"": ""Network config"", ""ping"": ""Test reachability"", ""tracert"": ""Trace route""}"
+Match laptop components.,,,,,,drag_and_drop,"{""SODIMM"": ""Memory"", ""Battery"": ""Power"", ""Inverter"": ""Backlight power""}"
+Match printer types to features.,,,,,,drag_and_drop,"{""Laser"": ""Uses toner"", ""Inkjet"": ""Sprays ink"", ""Thermal"": ""Uses heat""}"
+Match OS utilities.,,,,,,drag_and_drop,"{""Task Manager"": ""Processes"", ""Device Manager"": ""Drivers"", ""MSConfig"": ""Startup""}"
+Match security types.,,,,,,drag_and_drop,"{""Antivirus"": ""Malware protection"", ""Firewall"": ""Block network access"", ""BitLocker"": ""Encrypt drive""}"
+Match backup types.,,,,,,drag_and_drop,"{""Full"": ""Everything"", ""Incremental"": ""Since last backup"", ""Differential"": ""Since full backup""}"
+Match BIOS settings.,,,,,,drag_and_drop,"{""Boot Order"": ""Startup priority"", ""TPM"": ""Security module"", ""Secure Boot"": ""Malware prevention""}"
+Match expansion slots.,,,,,,drag_and_drop,"{""PCIe"": ""Modern GPUs"", ""PCI"": ""Older cards"", ""AGP"": ""Legacy graphics""}"
+Match laptop features.,,,,,,drag_and_drop,"{""Trackpad"": ""Pointing device"", ""Webcam"": ""Video input"", ""Function keys"": ""Special actions""}"
+Match IP addresses.,,,,,,drag_and_drop,"{""192.168.1.1"": ""Private"", ""8.8.8.8"": ""Public"", ""127.0.0.1"": ""Loopback""}"
+Match display technologies.,,,,,,drag_and_drop,"{""TN"": ""Fast refresh"", ""IPS"": ""Wide angles"", ""OLED"": ""True blacks""}"
+Match file systems.,,,,,,drag_and_drop,"{""NTFS"": ""Windows"", ""FAT32"": ""Legacy"", ""EXT4"": ""Linux""}"
+Match mobile OS features.,,,,,,drag_and_drop,"{""iOS"": ""App Store"", ""Android"": ""Play Store"", ""Windows Mobile"": ""Live Tiles""}"
+Match power settings.,,,,,,drag_and_drop,"{""Sleep"": ""RAM powered"", ""Hibernate"": ""Save to disk"", ""Shutdown"": ""Turn off""}"
+Match CPU terms.,,,,,,drag_and_drop,"{""Clock speed"": ""GHz"", ""Cores"": ""Parallel tasks"", ""Cache"": ""Quick access""}"
+Match network devices.,,,,,,drag_and_drop,"{""Switch"": ""MAC-based forwarding"", ""Router"": ""IP routing"", ""Access Point"": ""Wireless entry""}"
+Match connection types.,,,,,,drag_and_drop,"{""Wired"": ""Ethernet"", ""Wireless"": ""Wi-Fi"", ""Cellular"": ""Mobile data""}"
+Match PC maintenance tools.,,,,,,drag_and_drop,"{""Air duster"": ""Remove dust"", ""Thermal paste"": ""Improve cooling"", ""Anti-static strap"": ""Prevent ESD""}"
+Match form factors.,,,,,,drag_and_drop,"{""ATX"": ""Full tower"", ""Micro-ATX"": ""Mid-sized"", ""Mini-ITX"": ""Compact""}"
+Match ports to protocols.,,,,,,drag_and_drop,"{""25"": ""SMTP"", ""110"": ""POP3"", ""143"": ""IMAP""}"
+Match Windows modes.,,,,,,drag_and_drop,"{""Safe Mode"": ""Minimal drivers"", ""Normal Mode"": ""Full startup"", ""Recovery Mode"": ""System repair""}"
+Match video connectors.,,,,,,drag_and_drop,"{""HDMI"": ""Digital + audio"", ""VGA"": ""Analog"", ""DisplayPort"": ""Digital + chaining""}"
+Match mobile features.,,,,,,drag_and_drop,"{""GPS"": ""Location"", ""Accelerometer"": ""Motion"", ""Gyroscope"": ""Orientation""}"
+Match USB versions.,,,,,,drag_and_drop,"{""USB 2.0"": ""480 Mbps"", ""USB 3.0"": ""5 Gbps"", ""USB-C"": ""Reversible""}"
+Match system types.,,,,,,drag_and_drop,"{""Desktop"": ""Stationary PC"", ""Laptop"": ""Portable PC"", ""Tablet"": ""Touchscreen device""}"
+Match wireless standards.,,,,,,drag_and_drop,"{""802.11a"": ""5 GHz only"", ""802.11b"": ""2.4 GHz only"", ""802.11n"": ""2.4/5 GHz""}"
+Match CPU features.,,,,,,drag_and_drop,"{""Multithreading"": ""One core, multiple tasks"", ""Multicore"": ""Multiple processors"", ""Hypervisor"": ""Virtualization""}"
+Match cable types to shielding.,,,,,,drag_and_drop,"{""UTP"": ""Unshielded"", ""STP"": ""Shielded"", ""Coaxial"": ""Single shield""}"
+Match power connectors.,,,,,,drag_and_drop,"{""24-pin"": ""Motherboard power"", ""4/8-pin"": ""CPU power"", ""6/8-pin"": ""GPU power""}"
+Match drive interfaces.,,,,,,drag_and_drop,"{""SATA"": ""Standard HDD"", ""NVMe"": ""Fast SSD"", ""eSATA"": ""External drive""}"
+Match boot types.,,,,,,drag_and_drop,"{""Cold boot"": ""Power on"", ""Warm boot"": ""Restart"", ""PXE boot"": ""Network boot""}"
+Match user account types.,,,,,,drag_and_drop,"{""Administrator"": ""Full control"", ""Standard"": ""Limited rights"", ""Guest"": ""Temporary access""}"
+Match malware types.,,,,,,drag_and_drop,"{""Trojan"": ""Disguised threat"", ""Worm"": ""Self-replicating"", ""Spyware"": ""Steals data""}"
+Match operating system types.,,,,,,drag_and_drop,"{""Windows"": ""Commercial desktop"", ""Linux"": ""Open source"", ""macOS"": ""Apple only""}"
+Match touch technologies.,,,,,,drag_and_drop,"{""Capacitive"": ""Finger-based"", ""Resistive"": ""Stylus-friendly"", ""Infrared"": ""Edge sensors""}"
+Match display sizes.,,,,,,drag_and_drop,"{""13\""": ""Portable"", ""24\""": ""Desktop"", ""32\""": ""Large format""}"
+Match printer components.,,,,,,drag_and_drop,"{""Toner"": ""Laser"", ""Nozzle"": ""Inkjet"", ""Print head"": ""Thermal""}"
+Match cable colors to standards.,,,,,,drag_and_drop,"{""Blue"": ""Ethernet"", ""Yellow"": ""Video"", ""Red"": ""Audio/Power""}"
+Match storage units.,,,,,,drag_and_drop,"{""GB"": ""Gigabyte"", ""TB"": ""Terabyte"", ""MB"": ""Megabyte""}"
+Match drive types.,,,,,,drag_and_drop,"{""Internal"": ""Inside case"", ""External"": ""USB connected"", ""Network"": ""Over LAN""}"
+Match email protocols.,,,,,,drag_and_drop,"{""SMTP"": ""Send mail"", ""IMAP"": ""Sync inbox"", ""POP3"": ""Download only""}"
+Match authentication factors.,,,,,,drag_and_drop,"{""Password"": ""Something you know"", ""Fingerprint"": ""Something you are"", ""Smart card"": ""Something you have""}"
+Match DNS terms.,,,,,,drag_and_drop,"{""A record"": ""IPv4 address"", ""MX record"": ""Mail server"", ""CNAME"": ""Alias""}"
+Match laptop power states.,,,,,,drag_and_drop,"{""Sleep"": ""RAM on"", ""Hibernate"": ""Disk save"", ""Shutdown"": ""Off""}"
+Match system types to use cases.,,,,,,drag_and_drop,"{""Workstation"": ""Productivity tasks"", ""Server"": ""Resource host"", ""Gaming PC"": ""High performance""}"
+Match tool to function.,,,,,,drag_and_drop,"{""Cable tester"": ""Checks continuity"", ""Crimper"": ""Attaches connectors"", ""Punchdown tool"": ""Terminates wires""}"
+Match Windows log types.,,,,,,drag_and_drop,"{""System"": ""OS events"", ""Security"": ""Logins"", ""Application"": ""App errors""}"
+Match connection types.,,,,,,drag_and_drop,"{""WPA2"": ""Wi-Fi security"", ""Ethernet"": ""Wired network"", ""Bluetooth"": ""Short range""}"
+Match permissions.,,,,,,drag_and_drop,"{""Read"": ""View files"", ""Write"": ""Modify files"", ""Execute"": ""Run files""}"
+Match network services.,,,,,,drag_and_drop,"{""DHCP"": ""Auto IP assignment"", ""DNS"": ""Hostname resolution"", ""NAT"": ""Private to public IP""}"
+Match input types.,,,,,,drag_and_drop,"{""Mouse"": ""Pointing"", ""Microphone"": ""Audio input"", ""Scanner"": ""Image input""}"
+Match computer states.,,,,,,drag_and_drop,"{""On"": ""Full power"", ""Sleep"": ""Low power"", ""Off"": ""No power""}"
+Match laptop components.,,,,,,drag_and_drop,"{""Inverter"": ""Backlight power"", ""Trackpad"": ""Input"", ""Webcam"": ""Video""}"
+Match malware symptoms.,,,,,,drag_and_drop,"{""Pop-ups"": ""Adware"", ""Slow performance"": ""Virus"", ""File lockout"": ""Ransomware""}"
+Match software types.,,,,,,drag_and_drop,"{""Utility"": ""Support system tasks"", ""Productivity"": ""Create content"", ""Driver"": ""Enable hardware""}"
+Match port numbers.,,,,,,drag_and_drop,"{""20/21"": ""FTP"", ""23"": ""Telnet"", ""3389"": ""RDP""}"
+Match external ports.,,,,,,drag_and_drop,"{""HDMI"": ""Video/Audio"", ""USB"": ""Peripheral"", ""Ethernet"": ""Networking""}"
+Match backup methods.,,,,,,drag_and_drop,"{""Incremental"": ""Changes since last backup"", ""Differential"": ""Changes since full"", ""Full"": ""Complete snapshot""}"
+Match LCD parts.,,,,,,drag_and_drop,"{""Inverter"": ""Power to backlight"", ""Backlight"": ""Illumination"", ""Panel"": ""Display image""}"
+Match software installation types.,,,,,,drag_and_drop,"{""Local"": ""On device"", ""Cloud"": ""Web-based"", ""Network"": ""Remote share""}"
+Match permissions to users.,,,,,,drag_and_drop,"{""Admin"": ""Full rights"", ""User"": ""Limited access"", ""Guest"": ""Temporary access""}"
+Match cable types to connectors.,,,,,,drag_and_drop,"{""Cat6"": ""RJ-45"", ""Coaxial"": ""BNC"", ""Fiber"": ""LC""}"
+Match types of displays.,,,,,,drag_and_drop,"{""LCD"": ""Requires backlight"", ""OLED"": ""Self-illuminating"", ""Plasma"": ""Gas-based""}"
+Match CPU cache levels.,,,,,,drag_and_drop,"{""L1"": ""Fastest, smallest"", ""L2"": ""Larger, slower"", ""L3"": ""Shared, largest""}"
+Match wireless technologies.,,,,,,drag_and_drop,"{""Zigbee"": ""IoT devices"", ""Wi-Fi"": ""LAN wireless"", ""Cellular"": ""Wide area""}"
+Match shutdown options.,,,,,,drag_and_drop,"{""Restart"": ""Reboot"", ""Sleep"": ""Pause power"", ""Shutdown"": ""Turn off""}"
+Match software licenses.,,,,,,drag_and_drop,"{""OEM"": ""Tied to hardware"", ""Volume"": ""Bulk use"", ""Subscription"": ""Recurring fee""}"
+Match touchpad gestures.,,,,,,drag_and_drop,"{""Two-finger swipe"": ""Scroll"", ""Tap"": ""Click"", ""Pinch"": ""Zoom""}"
+Match authentication methods.,,,,,,drag_and_drop,"{""Password"": ""Knowledge-based"", ""Face ID"": ""Biometric"", ""Smart card"": ""Token""}"
+Match laptop display types.,,,,,,drag_and_drop,"{""Glossy"": ""Vibrant colors"", ""Matte"": ""Reduced glare"", ""Touchscreen"": ""Interactive input""}"
+Match Wi-Fi encryption types.,,,,,,drag_and_drop,"{""WEP"": ""Weak"", ""WPA"": ""Moderate"", ""WPA2"": ""Strong""}"
+Match update types.,,,,,,drag_and_drop,"{""Feature update"": ""New OS version"", ""Security patch"": ""Fix vulnerabilities"", ""Driver update"": ""Hardware support""}"
+Match network speeds.,,,,,,drag_and_drop,"{""Fast Ethernet"": ""100 Mbps"", ""Gigabit"": ""1 Gbps"", ""10G"": ""10 Gbps""}"
+Match OS boot files.,,,,,,drag_and_drop,"{""bootmgr"": ""Boot manager"", ""winload.exe"": ""Load OS"", ""bcdedit"": ""Edit boot config""}"
+Match types of printers.,,,,,,drag_and_drop,"{""Dot-matrix"": ""Impact printing"", ""Laser"": ""Toner-based"", ""Inkjet"": ""Spray ink""}"
+Match display resolutions.,,,,,,drag_and_drop,"{""1920x1080"": ""Full HD"", ""2560x1440"": ""QHD"", ""3840x2160"": ""4K UHD""}"
+Match motherboard sizes.,,,,,,drag_and_drop,"{""ATX"": ""Standard full size"", ""Micro-ATX"": ""Smaller variant"", ""Mini-ITX"": ""Compact builds""}"
+Match OS maintenance tools.,,,,,,drag_and_drop,"{""Disk Cleanup"": ""Remove junk files"", ""Defragmenter"": ""Optimize HDD"", ""System Restore"": ""Roll back changes""}"
+Match boot options.,,,,,,drag_and_drop,"{""UEFI"": ""Modern boot"", ""BIOS"": ""Legacy boot"", ""PXE"": ""Network boot""}"
+Match common errors.,,,,,,drag_and_drop,"{""BSOD"": ""Critical OS failure"", ""POST beep"": ""Hardware fault"", ""Boot loop"": ""Startup failure""}"
+Match backup locations.,,,,,,drag_and_drop,"{""Local"": ""Same device"", ""External"": ""USB drive"", ""Cloud"": ""Internet storage""}"
+Match wireless tools.,,,,,,drag_and_drop,"{""SSID"": ""Network name"", ""MAC filter"": ""Device restriction"", ""WPS"": ""Quick connect""}"
+Match processor brands.,,,,,,drag_and_drop,"{""Intel"": ""Core i7"", ""AMD"": ""Ryzen 7"", ""Apple"": ""M1 chip""}"
+Match file attributes.,,,,,,drag_and_drop,"{""Hidden"": ""Invisible by default"", ""Read-only"": ""Cannot edit"", ""System"": ""Critical to OS""}"
+Match Windows folders.,,,,,,drag_and_drop,"{""System32"": ""Core files"", ""Program Files"": ""Installed apps"", ""Users"": ""Profiles and data""}"
+Match cooling types.,,,,,,drag_and_drop,"{""Fan"": ""Air cooling"", ""Heatsink"": ""Passive dissipation"", ""Liquid"": ""Water-based""}"
+Match storage technologies.,,,,,,drag_and_drop,"{""HDD"": ""Magnetic platter"", ""SSD"": ""Flash-based"", ""Tape"": ""Archival""}"
+Match power states.,,,,,,drag_and_drop,"{""Soft Off"": ""Shutdown"", ""Sleep"": ""Suspend"", ""Hibernate"": ""Save state to disk""}"
+Match file types.,,,,,,drag_and_drop,"{"".exe"": ""Executable"", "".docx"": ""Word document"", "".jpg"": ""Image""}"
+Match Windows shortcuts.,,,,,,drag_and_drop,"{""Ctrl+C"": ""Copy"", ""Ctrl+V"": ""Paste"", ""Alt+Tab"": ""Switch window""}"
+Match firmware types.,,,,,,drag_and_drop,"{""BIOS"": ""Legacy system software"", ""UEFI"": ""Modern system firmware"", ""Embedded"": ""Device-specific""}"
+Match command-line tools to OS.,,,,,,drag_and_drop,"{""sfc"": ""Windows"", ""fsck"": ""Linux"", ""diskutil"": ""macOS""}"
+Match internet services.,,,,,,drag_and_drop,"{""DNS"": ""Name resolution"", ""FTP"": ""File transfer"", ""HTTP"": ""Web browsing""}"
+Match virtualization platforms.,,,,,,drag_and_drop,"{""Hyper-V"": ""Windows"", ""VirtualBox"": ""Cross-platform"", ""VMware"": ""Enterprise-grade""}"

@@ -1,0 +1,301 @@
+text,option_a,option_b,option_c,option_d,correct_option,question_type,extra_data
+Which of the following is a form of multi-factor authentication?,Password and PIN,Fingerprint and retina scan,Password and fingerprint,Username and password,C,multiple_choice,
+Which attack involves sending fraudulent emails to trick users into revealing sensitive information?,Pharming,Phishing,Smishing,Sniffing,B,multiple_choice,
+Which encryption algorithm is symmetric?,RSA,DSA,ECC,AES,D,multiple_choice,
+What does CIA stand for in cybersecurity?,Cybersecurity Intelligence Agency,Confidentiality, Integrity, Availability,Control, Integrity, Access,Compliance, Integrity, Access,B,multiple_choice,
+What type of malware restricts access to data until a ransom is paid?,Spyware,Trojan,Worm,Ransomware,D,multiple_choice,
+Which port does HTTPS use?,80,21,443,110,C,multiple_choice,
+What is the primary purpose of a firewall?,Encrypt data,Block spam,Prevent unauthorized access,Scan for malware,C,multiple_choice,
+Which device inspects traffic and blocks based on rules?,Router,Switch,Firewall,Bridge,C,multiple_choice,
+Which of the following is a form of social engineering?,Man-in-the-middle,Phishing,DDoS,SQL injection,B,multiple_choice,
+What is the role of hashing in security?,Compress data,Speed up downloads,Verify integrity,Encrypt files,C,multiple_choice,
+What does the term "least privilege" mean?,Grant all users admin access,Grant access based on role,Grant minimal necessary access,Deny all access,C,multiple_choice,
+Which of these is a strong password?,123456,Password!,Winter2023!,Qw!8$z@T,D,multiple_choice,
+Which protocol secures email messages?,FTP,IMAP,S/MIME,TFTP,C,multiple_choice,
+Which security model focuses on preventing information flow from high to low levels?,Bell-LaPadula,Biba,Clark-Wilson,MAC,A,multiple_choice,
+Which of the following is a physical security control?,Firewall,Security guard,IDS,Antivirus,B,multiple_choice,
+What is a zero-day vulnerability?,A patch released the same day,An outdated exploit,An unknown flaw to the vendor,An unpatched known bug,C,multiple_choice,
+Which attack overloads a system to disrupt services?,Brute force,MITM,DoS,Phishing,C,multiple_choice,
+What technology is used to ensure non-repudiation?,Hashing,Firewalls,Digital signatures,MAC,C,multiple_choice,
+What kind of attack tries every possible password?,Spoofing,Brute force,Phishing,Replay,B,multiple_choice,
+What kind of malware disguises itself as legitimate software?,Worm,Trojan,Ransomware,Rootkit,B,multiple_choice,
+Which port is used by SSH?,22,23,443,110,A,multiple_choice,
+What does the term "defense in depth" mean?,Using only firewalls,Isolating each network,Layered security approach,Limiting users to one device,C,multiple_choice,
+Which tool scans systems for vulnerabilities?,Firewall,IDS,SIEM,Nessus,D,multiple_choice,
+Which policy governs how users should behave on a network?,Privacy policy,Acceptable Use Policy,Retention policy,Security baseline,B,multiple_choice,
+Which security protocol is used with wireless networks?,HTTPS,WEP,SMTP,IMAP,B,multiple_choice
+What is the function of a digital certificate?,Encrypt files,Prove identity,Grant admin rights,Generate passwords,B,multiple_choice,
+What is an example of a logical access control?,Firewall,Biometrics,Retina scanner,ACL,D,multiple_choice,
+What type of attack is ARP poisoning?,Wireless,Network,Application,Social engineering,B,multiple_choice,
+What is the primary goal of a penetration test?,Install antivirus,Gain unauthorized access,Stress test the system,Prove encryption works,B,multiple_choice,
+What technology detects unauthorized changes in files?,IDS,HIPS,DLP,File integrity monitoring,D,multiple_choice,
+Which security concept ensures only intended recipients can read a message?,Integrity,Confidentiality,Availability,Accountability,B,multiple_choice,
+What is a common use of a honeypot?,Improve performance,Store backups,Lure attackers,Replace firewalls,C,multiple_choice,
+Which of the following is a biometric factor?,Password,Token,Retina scan,Smart card,C,multiple_choice,
+What is the purpose of a hash function?,Encrypt messages,Generate keys,Verify data integrity,Monitor logs,C,multiple_choice,
+What does the principle of separation of duties help prevent?,Accidental deletion,Hardware failure,Insider threats,Privilege escalation,C,multiple_choice,
+What is an example of a physical access control?,Firewall,Fingerprint scanner,Password,ACL,B,multiple_choice,
+Which port is used by LDAP?,389,443,3389,22,A,multiple_choice,
+What is a rainbow table used for?,Scanning networks,Logging events,Cracking hashes,Encrypting passwords,C,multiple_choice,
+Which of the following is a vulnerability scanner?,Wireshark,Nmap,Metasploit,Nessus,D,multiple_choice,
+What does the term "air gap" refer to?,Encrypted tunnel,A disconnected network,Software update,A VLAN,B,multiple_choice,
+Which malware can replicate itself without a host file?,Virus,Worm,Trojan,Rootkit,B,multiple_choice,
+Which concept is used to restrict access to data based on job roles?,MAC,DAC,RBAC,ABAC,C,multiple_choice,
+Which protocol is used for secure web browsing?,FTP,HTTP,HTTPS,SCP,C,multiple_choice,
+Which backup type copies only changed files since the last full backup?,Full,Differential,Incremental,Snapshot,C,multiple_choice,
+Which standard focuses on handling credit card information?,SOX,GLBA,PCI DSS,FISMA,C,multiple_choice,
+What is the purpose of DLP?,Block hackers,Prevent data leaks,Encrypt data,Authenticate users,B,multiple_choice,
+Which authentication method uses multiple independent factors?,Single sign-on,Biometrics,Two-factor,Multifactor authentication,D,multiple_choice,
+What is the function of an SIEM system?,Encrypt files,Manage access,Aggregate security logs,Control printers,C,multiple_choice,
+Which attack tricks a DNS server into redirecting traffic?,Smurf,ARP poisoning,DNS poisoning,Man-in-the-middle,C,multiple_choice,
+What does EFS do in Windows?,Monitor events,Encrypt files,Prevent ransomware,Manage permissions,B,multiple_choice
+What is the function of a security baseline?,Audit users,Standardize settings,Install antivirus,Block ports,B,multiple_choice,
+Which security model ensures integrity by preventing unauthorized modifications?,Bell-LaPadula,Biba,Clark-Wilson,RBAC,B,multiple_choice,
+Which of these is a symmetric encryption algorithm?,RSA,Blowfish,DSA,ECC,B,multiple_choice,
+What is social engineering primarily targeting?,Software,Hardware,People,Passwords,C,multiple_choice,
+Which wireless security protocol is the most secure?,WEP,WPA,WPA2,WPA3,D,multiple_choice,
+Which tool is used to monitor and log security events?,IDS,Firewall,SIEM,Antivirus,C,multiple_choice,
+Which of these is a vulnerability?,Firewall,DNS server,Outdated software,Router,C,multiple_choice,
+What type of penetration test is done with no knowledge of the system?,White box,Black box,Gray box,Blue team,B,multiple_choice,
+What port does RDP use?,3389,443,22,21,A,multiple_choice,
+Which concept ensures that data is not altered?,Authentication,Availability,Integrity,Non-repudiation,C,multiple_choice,
+What is the goal of patch management?,Encrypt traffic,Improve performance,Fix vulnerabilities,Change ports,C,multiple_choice,
+Which of the following is an example of a threat?,Malware,Outdated software,Unpatched system,Weak password,A,multiple_choice,
+What type of attack uses multiple systems to flood a target?,Brute force,MITM,DDoS,Phishing,C,multiple_choice,
+Which of these helps detect rogue devices on a network?,Firewall,NAC,SIEM,IDS,B,multiple_choice,
+What does a digital signature provide?,Speed,Encryption,Integrity and authentication,Compression,C,multiple_choice,
+Which type of certificate is used internally only?,Wildcard,Self-signed,EV,Root,B,multiple_choice,
+What does the term “non-repudiation” mean?,Encrypting emails,User accountability,Blocking unauthorized access,Backups,B,multiple_choice,
+Which principle supports access only on a need-to-know basis?,Separation of duties,Least privilege,Multi-factor authentication,Encryption,B,multiple_choice,
+What does SSO stand for?,Single Security Object,Secure Sign-On,Single Sign-On,Smart Sign Option,C,multiple_choice,
+Which type of malware installs without user knowledge and hides itself?,Spyware,Rootkit,Trojan,Worm,B,multiple_choice,
+What does the P in CIA triad represent?,Privacy,Protection,Performance,None of the above,D,multiple_choice,
+What kind of attack relies on reusing captured authentication data?,Replay,DoS,DNS poisoning,Smurf,A,multiple_choice,
+Which protocol uses port 443?,HTTP,HTTPS,FTP,SMTP,B,multiple_choice,
+Which of these is an example of privilege escalation?,Using sudo,Brute force login,Creating backups,Opening firewall ports,A,multiple_choice,
+What’s the purpose of a demilitarized zone (DMZ)?,Encrypt internal data,Store backups,Isolate public services,Host printers,C,multiple_choice
+What does VPN stand for?,Virtual Private Network,Verified Protected Network,Virtual Protocol Node,Variable Packet Network,A,multiple_choice,
+Which layer of the OSI model does a firewall primarily operate on?,Layer 3,Layer 4,Layer 5,Layer 7,A,multiple_choice,
+Which type of attack sends deceptive text messages?,Phishing,Vishing,Smishing,Whaling,C,multiple_choice,
+Which cryptographic concept ensures that messages aren’t altered?,Encryption,Integrity,Availability,Obfuscation,B,multiple_choice,
+What tool would help identify open ports on a system?,Nessus,Nmap,Wireshark,Metasploit,B,multiple_choice,
+What is the best mitigation against brute force password attacks?,Firewall,Password complexity,Multifactor authentication,Encryption,C,multiple_choice,
+Which authentication method uses tickets?,LDAP,TACACS+,Kerberos,RADIUS,C,multiple_choice,
+What is the main purpose of a mantrap?,Detect malware,Block phishing,Prevent tailgating,Encrypt credentials,C,multiple_choice,
+Which attack targets databases with malicious input?,Cross-site scripting,SQL injection,Buffer overflow,Privilege escalation,B,multiple_choice,
+What is a buffer overflow?,Memory filled with packets,Excessive file transfer,More data than memory can handle,Overloaded CPU,C,multiple_choice,
+What is the purpose of sandboxing?,Encrypt data,Run untrusted code safely,Stop malware at the firewall,Segment networks,B,multiple_choice,
+Which of the following is a passive reconnaissance method?,Port scanning,Traffic sniffing,SQL injection,Brute force,B,multiple_choice,
+What is the function of a HIDS?,Block IPs,Monitor host activity,Scan emails,Filter spam,B,multiple_choice,
+Which port does SMTP use?,110,25,53,443,B,multiple_choice,
+Which algorithm is commonly used for digital signatures?,AES,DES,RSA,Blowfish,C,multiple_choice,
+What does an IDS do?,Blocks traffic,Monitors traffic for signs of attack,Encrypts traffic,Inspects content deeply,B,multiple_choice,
+Which tool captures network packets for analysis?,SIEM,Nmap,Wireshark,Nessus,C,multiple_choice,
+What type of attack attempts to guess all possible passwords?,Replay,MITM,Brute force,Pharming,C,multiple_choice,
+Which of these is a cloud deployment model?,NIST,Hybrid,SDLC,SHA-256,B,multiple_choice,
+What is the purpose of two-factor authentication?,Encrypt messages,Use two passwords,Use two different authentication factors,Replace passwords entirely,C,multiple_choice,
+Which of these is an example of an environmental control?,NAC,Firewall,HVAC,IDS,C,multiple_choice,
+What does FIM stand for?,File Integrity Monitoring,Firewall Intrusion Management,Fingerprint Identification Mechanism,Flexible Identity Method,A,multiple_choice,
+Which of the following is used to ensure data is accessible when needed?,Integrity,Confidentiality,Availability,Authentication,C,multiple_choice,
+Which type of cloud service gives full control over the OS and resources?,SaaS,PaaS,IaaS,FaaS,C,multiple_choice,
+What is the best way to secure wireless networks?,WEP,WPA2/WPA3,MAC filtering,Hidden SSID,B,multiple_choice
+Multi-factor authentication requires at least two different types of factors.,True,False,,,A,true_false,
+Phishing attacks always involve malware.,True,False,,,B,true_false,
+Symmetric encryption uses the same key for encryption and decryption.,True,False,,,A,true_false,
+The CIA triad stands for Confidentiality, Integrity, and Availability.,True,False,,,A,true_false,
+Ransomware encrypts files and demands payment.,True,False,,,A,true_false,
+HTTPS uses port 80.,True,False,,,B,true_false,
+Firewalls can be both hardware and software.,True,False,,,A,true_false,
+Social engineering can involve phone calls.,True,False,,,A,true_false,
+Hashing is used to verify data integrity.,True,False,,,A,true_false,
+The principle of least privilege grants users full admin access.,True,False,,,B,true_false,
+A strong password should include a mix of letters, numbers, and symbols.,True,False,,,A,true_false,
+S/MIME is used to secure emails.,True,False,,,A,true_false,
+A security guard is an example of a physical control.,True,False,,,A,true_false,
+A zero-day vulnerability is known and patched.,True,False,,,B,true_false,
+DoS attacks flood a system to cause a crash or slowdown.,True,False,,,A,true_false,
+Digital signatures ensure integrity and authentication.,True,False,,,A,true_false,
+Brute force attacks guess passwords until successful.,True,False,,,A,true_false,
+A Trojan virus replicates itself.,True,False,,,B,true_false,
+SSH uses port 22.,True,False,,,A,true_false,
+Defense in depth uses multiple layers of protection.,True,False,,,A,true_false,
+Nessus is a vulnerability scanner.,True,False,,,A,true_false,
+An Acceptable Use Policy outlines how users should behave.,True,False,,,A,true_false,
+WEP is more secure than WPA2.,True,False,,,B,true_false,
+Digital certificates verify the identity of entities.,True,False,,,A,true_false,
+Access Control Lists (ACLs) are a form of logical control.,True,False,,,A,true_false
+ARP poisoning is a social engineering attack.,True,False,,,B,true_false,
+Penetration testing helps identify vulnerabilities.,True,False,,,A,true_false,
+File integrity monitoring detects changes to critical files.,True,False,,,A,true_false,
+Confidentiality ensures that data is always available.,True,False,,,B,true_false,
+A honeypot is designed to attract and trap attackers.,True,False,,,A,true_false,
+A retina scan is considered a biometric authentication method.,True,False,,,A,true_false,
+Hashing ensures data confidentiality.,True,False,,,B,true_false,
+Separation of duties prevents one person from having full control.,True,False,,,A,true_false,
+A fingerprint scanner is a physical access control.,True,False,,,A,true_false,
+LDAP typically uses port 389.,True,False,,,A,true_false,
+Rainbow tables help speed up password cracking.,True,False,,,A,true_false,
+Wireshark is a vulnerability scanner.,True,False,,,B,true_false,
+An air gap means no network connection.,True,False,,,A,true_false,
+Worms require user interaction to spread.,True,False,,,B,true_false,
+RBAC assigns permissions based on job roles.,True,False,,,A,true_false,
+HTTPS encrypts web traffic.,True,False,,,A,true_false,
+Incremental backups copy all files every time.,True,False,,,B,true_false,
+PCI DSS regulates healthcare data.,True,False,,,B,true_false,
+Data Loss Prevention (DLP) stops sensitive data from leaking.,True,False,,,A,true_false,
+Multifactor authentication requires at least two independent methods.,True,False,,,A,true_false,
+SIEM systems collect and analyze log data.,True,False,,,A,true_false,
+DNS poisoning redirects traffic to malicious sites.,True,False,,,A,true_false,
+EFS in Windows provides file encryption.,True,False,,,A,true_false,
+Security baselines help enforce consistent configuration.,True,False,,,A,true_false,
+The Biba model focuses on integrity.,True,False,,,A,true_false
+Blowfish is an asymmetric encryption algorithm.,True,False,,,B,true_false,
+Phishing targets systems, not people.,True,False,,,B,true_false,
+WPA3 is more secure than WPA2.,True,False,,,A,true_false,
+SIEM systems help correlate security events.,True,False,,,A,true_false,
+An outdated OS is a common vulnerability.,True,False,,,A,true_false,
+Black box testing involves full knowledge of the system.,True,False,,,B,true_false,
+RDP typically uses port 3389.,True,False,,,A,true_false,
+Integrity ensures that information is not altered.,True,False,,,A,true_false,
+Patch management is part of vulnerability management.,True,False,,,A,true_false,
+A threat is something that exploits a vulnerability.,True,False,,,A,true_false,
+A DDoS attack involves multiple attacking systems.,True,False,,,A,true_false,
+Network Access Control (NAC) can detect unauthorized devices.,True,False,,,A,true_false,
+Digital signatures provide encryption.,True,False,,,B,true_false,
+A self-signed certificate is trusted by all browsers by default.,True,False,,,B,true_false,
+Non-repudiation means a sender cannot deny sending a message.,True,False,,,A,true_false,
+Least privilege gives users more access than needed.,True,False,,,B,true_false,
+Single Sign-On (SSO) reduces password fatigue.,True,False,,,A,true_false,
+Rootkits are easy to detect with antivirus software.,True,False,,,B,true_false,
+The CIA triad includes Privacy.,True,False,,,B,true_false,
+Replay attacks reuse captured data.,True,False,,,A,true_false,
+HTTPS uses port 443.,True,False,,,A,true_false,
+Privilege escalation gives a user higher access rights.,True,False,,,A,true_false,
+A DMZ isolates internal systems from external access.,True,False,,,A,true_false,
+VPN stands for Virtual Protocol Network.,True,False,,,B,true_false,
+Firewalls inspect and filter network traffic.,True,False,,,A,true_false
+A firewall can operate at multiple OSI layers.,True,False,,,A,true_false,
+Smishing is a phishing attack via SMS.,True,False,,,A,true_false,
+Integrity ensures that data is encrypted.,True,False,,,B,true_false,
+Nmap is used to scan for open ports.,True,False,,,A,true_false,
+Brute force attacks are easily prevented by account lockouts.,True,False,,,A,true_false,
+Kerberos uses tickets for authentication.,True,False,,,A,true_false,
+Mantraps are used to detect SQL injection.,True,False,,,B,true_false,
+SQL injection targets web forms.,True,False,,,A,true_false,
+Buffer overflows can be used to inject malicious code.,True,False,,,A,true_false,
+Sandboxing allows untrusted code to run in isolation.,True,False,,,A,true_false,
+Passive reconnaissance avoids direct interaction.,True,False,,,A,true_false,
+HIDS monitors activity on a specific host.,True,False,,,A,true_false,
+SMTP typically uses port 25.,True,False,,,A,true_false,
+RSA is a common asymmetric encryption algorithm.,True,False,,,A,true_false,
+An IDS blocks suspicious traffic.,True,False,,,B,true_false,
+Wireshark can capture packets in real-time.,True,False,,,A,true_false,
+Replay attacks require previously captured data.,True,False,,,A,true_false,
+Hybrid cloud combines public and private resources.,True,False,,,A,true_false,
+Two-factor authentication uses two of the same factors.,True,False,,,B,true_false,
+HVAC is part of environmental controls.,True,False,,,A,true_false,
+File Integrity Monitoring can alert on unauthorized changes.,True,False,,,A,true_false,
+Availability ensures data is accessible when needed.,True,False,,,A,true_false,
+IaaS provides control over the operating system.,True,False,,,A,true_false,
+WPA3 is currently the most secure Wi-Fi encryption.,True,False,,,A,true_false,
+The principle of defense in depth uses a single security layer.,True,False,,,B,true_false
+Match authentication factors.,,,,,,drag_and_drop,"{""Something you know"": ""Password"", ""Something you have"": ""Smart card"", ""Something you are"": ""Fingerprint""}"
+Match types of malware.,,,,,,drag_and_drop,"{""Ransomware"": ""Demands payment"", ""Rootkit"": ""Hides access"", ""Worm"": ""Self-replicates""}"
+Match encryption types.,,,,,,drag_and_drop,"{""AES"": ""Symmetric"", ""RSA"": ""Asymmetric"", ""Blowfish"": ""Symmetric""}"
+Match layers of the CIA triad.,,,,,,drag_and_drop,"{""Confidentiality"": ""Prevent unauthorized access"", ""Integrity"": ""Ensure data is unchanged"", ""Availability"": ""Ensure access when needed""}"
+Match attack types.,,,,,,drag_and_drop,"{""Phishing"": ""Email trick"", ""Brute force"": ""Password guessing"", ""SQL injection"": ""Database manipulation""}"
+Match security controls.,,,,,,drag_and_drop,"{""Physical"": ""Security guard"", ""Technical"": ""Firewall"", ""Administrative"": ""Security policy""}"
+Match ports to services.,,,,,,drag_and_drop,"{""22"": ""SSH"", ""443"": ""HTTPS"", ""25"": ""SMTP""}"
+Match wireless encryption standards.,,,,,,drag_and_drop,"{""WEP"": ""Weak encryption"", ""WPA2"": ""Strong encryption"", ""WPA3"": ""Latest standard""}"
+Match hashing algorithms.,,,,,,drag_and_drop,"{""SHA-256"": ""Secure hash"", ""MD5"": ""Legacy hash"", ""HMAC"": ""Hash with key""}"
+Match tools to use.,,,,,,drag_and_drop,"{""Nmap"": ""Port scanning"", ""Wireshark"": ""Packet capture"", ""Nessus"": ""Vulnerability scanning""}"
+Match network zones.,,,,,,drag_and_drop,"{""LAN"": ""Internal trusted"", ""DMZ"": ""Public-facing servers"", ""WAN"": ""External untrusted""}"
+Match certificate types.,,,,,,drag_and_drop,"{""Root"": ""Trusted authority"", ""Wildcard"": ""Multiple subdomains"", ""Self-signed"": ""Internal use""}"
+Match backup types.,,,,,,drag_and_drop,"{""Full"": ""All data"", ""Incremental"": ""Since last backup"", ""Differential"": ""Since last full backup""}"
+Match types of firewalls.,,,,,,drag_and_drop,"{""Packet filtering"": ""Header info only"", ""Stateful inspection"": ""Tracks connections"", ""Proxy-based"": ""Acts as intermediary""}"
+Match cloud service models.,,,,,,drag_and_drop,"{""SaaS"": ""Google Docs"", ""PaaS"": ""Heroku"", ""IaaS"": ""AWS EC2""}"
+Match access control models.,,,,,,drag_and_drop,"{""MAC"": ""Clearance based"", ""DAC"": ""Owner controlled"", ""RBAC"": ""Job role""}"
+Match common protocols.,,,,,,drag_and_drop,"{""HTTPS"": ""Web encryption"", ""IMAP"": ""Email retrieval"", ""LDAP"": ""Directory services""}"
+Match authentication technologies.,,,,,,drag_and_drop,"{""Kerberos"": ""Ticket-based"", ""RADIUS"": ""Centralized auth"", ""TACACS+"": ""Cisco environments""}"
+Match types of threat actors.,,,,,,drag_and_drop,"{""Script kiddie"": ""Limited skill"", ""Insider threat"": ""Authorized access"", ""Nation state"": ""Government-backed""}"
+Match incident response steps.,,,,,,drag_and_drop,"{""Identify"": ""Detect the issue"", ""Contain"": ""Limit impact"", ""Recover"": ""Restore operations""}"
+Match wireless attacks.,,,,,,drag_and_drop,"{""Evil twin"": ""Fake access point"", ""Disassociation"": ""Force disconnect"", ""Jamming"": ""Noise interference""}"
+Match key components of PKI.,,,,,,drag_and_drop,"{""CA"": ""Issues certificates"", ""CRL"": ""Revocation list"", ""CSR"": ""Request for cert""}"
+Match email security tools.,,,,,,drag_and_drop,"{""SPF"": ""Sender validation"", ""DKIM"": ""Email signing"", ""DMARC"": ""Policy enforcement""}"
+Match social engineering methods.,,,,,,drag_and_drop,"{""Phishing"": ""Email deception"", ""Vishing"": ""Voice calls"", ""Tailgating"": ""Physical intrusion""}"
+Match mobile device protections.,,,,,,drag_and_drop,"{""MDM"": ""Manage devices remotely"", ""Remote wipe"": ""Erase data remotely"", ""Geofencing"": ""Location-based rules""}"
+Match types of penetration tests.,,,,,,drag_and_drop,"{""Black box"": ""No knowledge"", ""White box"": ""Full knowledge"", ""Gray box"": ""Partial knowledge""}"
+Match certificate formats.,,,,,,drag_and_drop,"{"".cer"": ""Public cert file"", "".pfx"": ""Cert + private key"", "".pem"": ""Base64 encoded""}"
+Match identity federation concepts.,,,,,,drag_and_drop,"{""SSO"": ""One login across apps"", ""SAML"": ""Federated identity"", ""OAuth"": ""Token-based auth""}"
+Match vulnerability management steps.,,,,,,drag_and_drop,"{""Identify"": ""Find flaws"", ""Evaluate"": ""Assess risk"", ""Remediate"": ""Fix issues""}"
+Match malware types to effects.,,,,,,drag_and_drop,"{""Spyware"": ""Steals info"", ""Adware"": ""Displays ads"", ""Rootkit"": ""Hides presence""}"
+Match secure protocols.,,,,,,drag_and_drop,"{""HTTPS"": ""Secure web"", ""SFTP"": ""Secure file transfer"", ""LDAPS"": ""Encrypted directory access""}"
+Match access control concepts.,,,,,,drag_and_drop,"{""Least privilege"": ""Minimum access"", ""Separation of duties"": ""Split responsibilities"", ""Need to know"": ""Limit data access""}"
+Match password attack types.,,,,,,drag_and_drop,"{""Brute force"": ""Try all combinations"", ""Dictionary"": ""Use wordlist"", ""Rainbow"": ""Use precomputed hashes""}"
+Match physical security controls.,,,,,,drag_and_drop,"{""Mantrap"": ""Prevents tailgating"", ""Security camera"": ""Monitors access"", ""Biometric reader"": ""ID verification""}"
+Match key escrow concepts.,,,,,,drag_and_drop,"{""Key escrow"": ""Stores backup keys"", ""Recovery agent"": ""Authorized retriever"", ""Backup key"": ""Secondary decryption key""}"
+Match endpoint security solutions.,,,,,,drag_and_drop,"{""Antivirus"": ""Malware protection"", ""HIDS"": ""Host monitoring"", ""DLP"": ""Prevent data leaks""}"
+Match user account types.,,,,,,drag_and_drop,"{""Admin"": ""Full control"", ""Standard user"": ""Limited access"", ""Guest"": ""Temporary access""}"
+Match token types.,,,,,,drag_and_drop,"{""HOTP"": ""One-time, event-based"", ""TOTP"": ""One-time, time-based"", ""Smart card"": ""Physical token""}"
+Match attack prevention tools.,,,,,,drag_and_drop,"{""Firewall"": ""Block ports"", ""IDS"": ""Alert on threats"", ""SIEM"": ""Correlate logs""}"
+Match remote access methods.,,,,,,drag_and_drop,"{""VPN"": ""Secure remote tunnel"", ""RDP"": ""Graphical access"", ""SSH"": ""Secure CLI""}"
+Match RAID levels.,,,,,,drag_and_drop,"{""RAID 0"": ""Striping, no redundancy"", ""RAID 1"": ""Mirroring"", ""RAID 5"": ""Striping + parity""}"
+Match mobile device policies.,,,,,,drag_and_drop,"{""BYOD"": ""Employee-owned devices"", ""COPE"": ""Company-owned, personal use"", ""CYOD"": ""Choose from approved list""}"
+Match application attacks.,,,,,,drag_and_drop,"{""Buffer overflow"": ""Overwrites memory"", ""Cross-site scripting"": ""Injects script"", ""SQL injection"": ""Modifies database""}"
+Match certificate components.,,,,,,drag_and_drop,"{""Public key"": ""Encrypt data"", ""Private key"": ""Decrypt data"", ""Digital signature"": ""Verify origin""}"
+Match log types to purpose.,,,,,,drag_and_drop,"{""System"": ""OS activity"", ""Security"": ""Login attempts"", ""Application"": ""App errors""}"
+Match security roles.,,,,,,drag_and_drop,"{""CIO"": ""IT strategy"", ""CISO"": ""Security leadership"", ""Security analyst"": ""Threat detection""}"
+Match incident severity levels.,,,,,,drag_and_drop,"{""Low"": ""Minimal impact"", ""Medium"": ""Limited disruption"", ""High"": ""Widespread threat""}"
+Match mobile device risks.,,,,,,drag_and_drop,"{""Jailbreaking"": ""Bypass controls"", ""Unsecured Wi-Fi"": ""Data interception"", ""Lost device"": ""Data breach risk""}"
+Match data states.,,,,,,drag_and_drop,"{""At rest"": ""Stored data"", ""In transit"": ""Transmitted data"", ""In use"": ""Actively processed""}"
+Match backup strategies.,,,,,,drag_and_drop,"{""Onsite"": ""Fast recovery"", ""Offsite"": ""Disaster recovery"", ""Cloud"": ""Accessible anywhere""}"
+Match risk responses.,,,,,,drag_and_drop,"{""Avoidance"": ""Eliminate risk source"", ""Mitigation"": ""Reduce impact"", ""Transfer"": ""Shift to third party""}"
+Match data roles.,,,,,,drag_and_drop,"{""Owner"": ""Responsible for data"", ""Custodian"": ""Maintains data"", ""User"": ""Accesses data""}"
+Match wireless attacks to method.,,,,,,drag_and_drop,"{""Bluejacking"": ""Send unsolicited messages"", ""Bluesnarfing"": ""Steal data via Bluetooth"", ""Evil twin"": ""Fake AP""}"
+Match account security practices.,,,,,,drag_and_drop,"{""Account lockout"": ""Block after failures"", ""Password policy"": ""Enforce strength"", ""Timeouts"": ""Auto logout""}"
+Match data classifications.,,,,,,drag_and_drop,"{""Confidential"": ""Limited access"", ""Public"": ""Open access"", ""Private"": ""Internal use""}"
+Match malware behavior.,,,,,,drag_and_drop,"{""Polymorphic"": ""Changes form"", ""Armored"": ""Hard to analyze"", ""Logic bomb"": ""Triggered attack""}"
+Match disaster recovery terms.,,,,,,drag_and_drop,"{""RTO"": ""Time to resume operations"", ""RPO"": ""Acceptable data loss"", ""BCP"": ""Business continuity plan""}"
+Match device hardening steps.,,,,,,drag_and_drop,"{""Disable services"": ""Minimize exposure"", ""Patch OS"": ""Fix vulnerabilities"", ""Change default creds"": ""Prevent misuse""}"
+Match multifactor types.,,,,,,drag_and_drop,"{""Something you do"": ""Typing pattern"", ""Somewhere you are"": ""Geolocation"", ""Something you know"": ""Password""}"
+Match secure coding practices.,,,,,,drag_and_drop,"{""Input validation"": ""Prevent injection"", ""Code signing"": ""Prove source"", ""Error handling"": ""Avoid info leakage""}"
+Match attack surfaces.,,,,,,drag_and_drop,"{""Web apps"": ""Form inputs"", ""Email"": ""Attachments/links"", ""USB drives"": ""Physical transfer""}"
+Match security testing types.,,,,,,drag_and_drop,"{""Vulnerability scan"": ""Identify weak points"", ""Penetration test"": ""Exploit flaws"", ""Tabletop exercise"": ""Simulate incident""}"
+Match social engineering clues.,,,,,,drag_and_drop,"{""Urgency"": ""Act fast"", ""Authority"": ""Claims power"", ""Scarcity"": ""Limited time offer""}"
+Match security protocols.,,,,,,drag_and_drop,"{""IPSec"": ""VPN encryption"", ""SSL/TLS"": ""Web security"", ""S/MIME"": ""Email protection""}"
+Match endpoint protection types.,,,,,,drag_and_drop,"{""HIPS"": ""Stop threats in real-time"", ""Antivirus"": ""Signature detection"", ""EPP"": ""Comprehensive defense""}"
+Match default port numbers.,,,,,,drag_and_drop,"{""443"": ""HTTPS"", ""22"": ""SSH"", ""389"": ""LDAP""}"
+Match sandboxing benefits.,,,,,,drag_and_drop,"{""Isolate apps"": ""Limit risk"", ""Test malware"": ""Observe behavior"", ""Run untrusted code"": ""Prevent spread""}"
+Match types of certificates.,,,,,,drag_and_drop,"{""Wildcard"": ""Covers subdomains"", ""Root"": ""Trusted authority"", ""SAN"": ""Multiple domains""}"
+Match security assessments.,,,,,,drag_and_drop,"{""Audit"": ""Formal review"", ""Log review"": ""Event monitoring"", ""Risk assessment"": ""Identify threats""}"
+Match security concepts.,,,,,,drag_and_drop,"{""Availability"": ""Access when needed"", ""Confidentiality"": ""Privacy protection"", ""Integrity"": ""Prevent tampering""}"
+Match user types.,,,,,,drag_and_drop,"{""Guest"": ""Temporary access"", ""Standard"": ""Limited permissions"", ""Administrator"": ""Full access""}"
+Match key stretching algorithms.,,,,,,drag_and_drop,"{""PBKDF2"": ""Password hashing"", ""bcrypt"": ""Adaptive hashing"", ""scrypt"": ""Resists brute force""}"
+Match input validation types.,,,,,,drag_and_drop,"{""Client-side"": ""Faster, less secure"", ""Server-side"": ""More secure"", ""Both"": ""Best practice""}"
+Match mitigation controls.,,,,,,drag_and_drop,"{""DLP"": ""Prevent data loss"", ""ACL"": ""Restrict access"", ""IDS"": ""Detect intrusions""}"
+Match user authentication types.,,,,,,drag_and_drop,"{""Username/password"": ""Single factor"", ""Smart card + PIN"": ""Multifactor"", ""Biometric only"": ""Single factor""}"
+Match types of social engineering.,,,,,,drag_and_drop,"{""Pretexting"": ""Invented scenario"", ""Impersonation"": ""Pretending to be someone"", ""Quid pro quo"": ""Exchange for info""}"
+Match physical security mechanisms.,,,,,,drag_and_drop,"{""Bollards"": ""Vehicle barrier"", ""Fencing"": ""Perimeter control"", ""Badge system"": ""Identity access""}"
+Match remote access security.,,,,,,drag_and_drop,"{""VPN"": ""Secure tunnel"", ""RDP"": ""Remote desktop"", ""VNC"": ""Cross-platform remote access""}"
+Match secure network architecture components.,,,,,,drag_and_drop,"{""Firewall"": ""Traffic filter"", ""IDS"": ""Intrusion detection"", ""Proxy"": ""Anonymize traffic""}"
+Match insider threat indicators.,,,,,,drag_and_drop,"{""Accessing files at odd hours"": ""Suspicious behavior"", ""Disabling logging"": ""Covering tracks"", ""Bypassing controls"": ""Malicious intent""}"
+Match mobile security threats.,,,,,,drag_and_drop,"{""App permissions"": ""Excessive data access"", ""Unsecured Wi-Fi"": ""Data sniffing"", ""Rooting"": ""Disables protections""}"
+Match cryptographic functions.,,,,,,drag_and_drop,"{""Confidentiality"": ""Encryption"", ""Integrity"": ""Hashing"", ""Authentication"": ""Digital signature""}"
+Match types of logs.,,,,,,drag_and_drop,"{""Authentication"": ""Login success/fail"", ""System"": ""Device activity"", ""Application"": ""Program actions""}"
+Match wireless security protocols.,,,,,,drag_and_drop,"{""WEP"": ""Deprecated"", ""WPA2"": ""Current standard"", ""WPA3"": ""Most secure""}"
+Match data destruction methods.,,,,,,drag_and_drop,"{""Shredding"": ""Paper docs"", ""Wiping"": ""Overwrite digital data"", ""Degaussing"": ""Erase magnetic storage""}"
+Match user account management practices.,,,,,,drag_and_drop,"{""Disable unused accounts"": ""Reduce attack surface"", ""Password aging"": ""Force changes"", ""Audit logs"": ""Track access""}"
+Match secure deployment practices.,,,,,,drag_and_drop,"{""Staging"": ""Pre-production testing"", ""Development"": ""Code creation"", ""Production"": ""Live environment""}"
+Match malware delivery vectors.,,,,,,drag_and_drop,"{""Email attachment"": ""Phishing"", ""Malicious link"": ""Drive-by download"", ""USB stick"": ""Removable media""}"
+Match role-based access examples.,,,,,,drag_and_drop,"{""HR role"": ""Employee records"", ""IT role"": ""System configurations"", ""Finance role"": ""Payroll systems""}"
+Match environmental controls.,,,,,,drag_and_drop,"{""HVAC"": ""Temperature control"", ""Fire suppression"": ""Prevent fire spread"", ""EMI shielding"": ""Block interference""}"
+Match symmetric encryption uses.,,,,,,drag_and_drop,"{""File encryption"": ""Speed"", ""VPN traffic"": ""Efficiency"", ""Database encryption"": ""Performance""}"
+Match asymmetric encryption uses.,,,,,,drag_and_drop,"{""Email encryption"": ""Public/private keys"", ""Digital signatures"": ""Authentication"", ""Secure key exchange"": ""Diffie-Hellman""}"
+Match backup testing methods.,,,,,,drag_and_drop,"{""Full restore"": ""Complete test"", ""Partial restore"": ""Verify key files"", ""Checksum comparison"": ""Verify integrity""}"
+Match secure file transfer protocols.,,,,,,drag_and_drop,"{""SCP"": ""Secure copy"", ""SFTP"": ""SSH-based FTP"", ""FTPS"": ""FTP over SSL""}"
+Match common monitoring tools.,,,,,,drag_and_drop,"{""NetFlow"": ""Traffic patterns"", ""SNMP"": ""Device status"", ""Syslog"": ""Event logging""}"
+Match key cryptographic terms.,,,,,,drag_and_drop,"{""Nonce"": ""Used once"", ""Salt"": ""Hash randomizer"", ""IV"": ""Initialization vector""}"
+Match OSI model to examples.,,,,,,drag_and_drop,"{""Layer 3"": ""IP routing"", ""Layer 4"": ""TCP segments"", ""Layer 7"": ""HTTP requests""}"
+Match vulnerability scanning results.,,,,,,drag_and_drop,"{""High risk"": ""Immediate attention"", ""Medium risk"": ""Schedule patch"", ""Low risk"": ""Monitor""}"
+Match penetration testing teams.,,,,,,drag_and_drop,"{""Red team"": ""Simulated attacker"", ""Blue team"": ""Defender"", ""Purple team"": ""Combined testing""}"
+Match email filtering tools.,,,,,,drag_and_drop,"{""Spam filter"": ""Block junk"", ""Antivirus"": ""Scan attachments"", ""DLP"": ""Prevent info leaks""}"

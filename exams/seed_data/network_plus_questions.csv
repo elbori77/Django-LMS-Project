@@ -1,0 +1,301 @@
+text,option_a,option_b,option_c,option_d,correct_option,question_type,extra_data
+Which protocol is used to assign IP addresses dynamically?,FTP,DNS,DHCP,IMAP,C,multiple_choice,
+What port number is used by HTTPS?,20,53,443,110,C,multiple_choice,
+Which device operates at Layer 3 of the OSI model?,Switch,Router,Hub,Bridge,B,multiple_choice,
+Which cable type is most immune to electromagnetic interference?,UTP,Coaxial,Fiber,STP,C,multiple_choice,
+What is the purpose of NAT?,Encrypt traffic,Assign MACs,Translate IPs,Speed up DNS,C,multiple_choice,
+What does the 'ping' command test?,Throughput,Latency,Connectivity,Encryption,C,multiple_choice,
+Which protocol is used for secure remote login?,Telnet,HTTP,SSH,POP3,C,multiple_choice,
+Which IP class provides up to 254 hosts?,Class A,Class B,Class C,Class D,C,multiple_choice,
+What is the default subnet mask for a Class B network?,255.255.255.0,255.0.0.0,255.255.255.128,255.255.0.0,D,multiple_choice,
+Which protocol resolves hostnames to IP addresses?,FTP,DNS,SMTP,ICMP,B,multiple_choice,
+What does TTL in an IP packet represent?,Time To Launch,Transfer To LAN,Time To Live,Try To Link,C,multiple_choice,
+Which protocol uses port 110?,SMTP,DHCP,POP3,Telnet,C,multiple_choice,
+Which network topology connects all devices to a central point?,Bus,Mesh,Star,Ring,C,multiple_choice,
+Which device regenerates and amplifies signals?,Router,Repeater,Switch,Bridge,B,multiple_choice,
+Which command shows all active TCP connections?,ping,netstat,tracert,ipconfig,B,multiple_choice,
+Which layer of the OSI model is responsible for encryption?,Transport,Network,Session,Presentation,D,multiple_choice,
+Which connector type is used with coaxial cable?,RJ-45,SC,BNC,LC,C,multiple_choice,
+Which tool checks cable continuity?,Crimper,Cable Tester,Loopback plug,Punchdown tool,B,multiple_choice,
+Which command shows a device’s IP configuration?,ping,tracert,ipconfig,nslookup,C,multiple_choice,
+Which device filters traffic based on IP addresses?,Repeater,Switch,Router,Firewall,D,multiple_choice,
+Which of these uses a tunneling protocol?,FTP,Telnet,PPTP,DNS,C,multiple_choice,
+What is the purpose of a DMZ in a network?,Disable malware zones,Host internal-only services,Isolate public-facing services,Encrypt sensitive data,C,multiple_choice,
+What does IEEE 802.3 define?,Wi-Fi,Bluetooth,Token Ring,Ethernet,D,multiple_choice,
+Which type of cable uses twisted pairs?,Fiber,HDMI,UTP,Coaxial,C,multiple_choice,
+Which port is used for Telnet?,23,21,22,110,A,multiple_choice
+What is the function of a switch in a network?,Route packets,Segment collision domains,Amplify signals,Assign IP addresses,B,multiple_choice,
+Which layer of the OSI model handles reliable delivery?,Session,Transport,Network,Application,B,multiple_choice,
+Which of these is a wireless security protocol?,HTTPS,WEP,FTP,IMAP,B,multiple_choice,
+Which connector is commonly used with fiber optic cable?,RJ-11,DB-9,BNC,LC,D,multiple_choice,
+Which port is used for FTP control?,20,21,22,80,B,multiple_choice,
+What is a common use for port 3389?,SSH,RDP,DNS,Telnet,B,multiple_choice,
+What is the purpose of the ARP protocol?,Encrypt traffic,Find MAC address from IP,Assign IPs,Determine hostname,B,multiple_choice,
+Which type of address is 169.254.x.x?,Loopback,APIPA,Broadcast,Private IP,B,multiple_choice,
+What does 802.11ac operate on?,2.4 GHz,5 GHz,Both 2.4 and 5 GHz,1.8 GHz,B,multiple_choice,
+Which topology provides the most redundancy?,Bus,Star,Ring,Mesh,D,multiple_choice,
+Which device uses MAC addresses for traffic forwarding?,Router,Switch,Firewall,Access Point,B,multiple_choice,
+What layer does TCP operate at?,Network,Transport,Session,Application,B,multiple_choice,
+Which port does DNS typically use?,23,53,80,110,B,multiple_choice,
+What command resolves a domain to an IP?,ipconfig,nslookup,ping,netstat,B,multiple_choice,
+Which protocol sends email?,POP3,IMAP,SMTP,HTTPS,C,multiple_choice,
+What is the purpose of VLANs?,Physical segmentation,Wireless routing,Logical network separation,Backup automation,C,multiple_choice,
+Which layer in the OSI model is responsible for routing?,Transport,Network,Session,Presentation,B,multiple_choice,
+Which of these protocols is connection-oriented?,UDP,TCP,ICMP,ARP,B,multiple_choice,
+Which tool is used to terminate twisted-pair cables?,Multimeter,Punchdown tool,Crimper,Toner probe,B,multiple_choice,
+What is the maximum length of a Cat6 cable?,10 meters,25 meters,100 meters,500 meters,C,multiple_choice,
+Which address type is globally routable?,APIPA,Private,Link-local,Public,D,multiple_choice,
+What type of network device operates only at Layer 1?,Router,Switch,Hub,Firewall,C,multiple_choice,
+Which of the following uses TCP?,DNS,TFTP,TCP/IP,HTTPS,D,multiple_choice,
+Which protocol is used to retrieve email while leaving it on the server?,SMTP,IMAP,POP3,FTP,B,multiple_choice,
+Which of the following provides IPsec encryption for VPNs?,PPTP,L2TP,SSTP,IPsec,D,multiple_choice
+Which wireless standard supports up to 1 Gbps?,802.11a,802.11n,802.11g,802.11b,B,multiple_choice,
+What is the main function of a proxy server?,Store backups,Scan for malware,Caching and filtering,Assign IPs,C,multiple_choice,
+Which device connects two different networks together?,Switch,Hub,Router,Repeater,C,multiple_choice,
+What type of attack captures traffic to steal data?,DoS,Phishing,Man-in-the-middle,Brute force,C,multiple_choice,
+Which address type is assigned by a DHCP server?,Static,Reserved,Dynamic,Loopback,C,multiple_choice,
+What command shows the path packets take to a destination?,ipconfig,netstat,ping,tracert,D,multiple_choice,
+What does MTTR stand for?,Mean Time To Response,Mean Time To Repair,Maximum Time To Retry,Minimum Time To Restore,B,multiple_choice,
+What protocol is used for secure email over TLS?,IMAP4,SMTP,S/MIME,POP3,C,multiple_choice,
+What is the purpose of QoS in a network?,Increase speed,Limit bandwidth,Prioritize traffic,Encrypt data,C,multiple_choice,
+Which of these is a layer of the TCP/IP model?,Session,Application,Transport,Data link,C,multiple_choice,
+Which technology allows multiple VLANs to be carried on a single port?,Trunking,NAT,Port forwarding,Proxying,A,multiple_choice,
+Which kind of cable uses an F-connector?,Ethernet,Coaxial,Fiber,Twisted Pair,B,multiple_choice,
+Which device provides wireless access in a LAN?,Router,Switch,Access Point,Hub,C,multiple_choice,
+Which tool is used to test phone and data jacks?,Loopback plug,Crimper,Cable tester,Tone generator,C,multiple_choice,
+Which protocol uses port 69?,IMAP,DHCP,TFTP,FTP,C,multiple_choice,
+Which method of network addressing provides the most flexibility?,Static,DHCP,NAT,MAC address,B,multiple_choice,
+What layer of the OSI model does HTTPS operate at?,Network,Transport,Session,Application,D,multiple_choice,
+Which type of media is used in multimode fiber?,LED,VCSEL,Electric pulses,Laser,A,multiple_choice,
+Which attack floods a network with requests?,Phishing,DNS poisoning,DoS,Social engineering,C,multiple_choice,
+Which technology provides logical separation on a switch?,VLAN,MAC filtering,QoS,NAT,A,multiple_choice,
+Which connector is typically used in serial console cables?,RJ-45,LC,DB-9,SC,C,multiple_choice,
+Which device is best for preventing external threats?,Router,Firewall,Switch,Bridge,B,multiple_choice,
+What protocol is used for file sharing in Windows?,FTP,SMB,IMAP,SCP,B,multiple_choice,
+What is the CIDR notation for a /24 subnet?,255.255.0.0,255.255.255.0,255.0.0.0,255.255.254.0,B,multiple_choice,
+Which protocol supports web access without encryption?,HTTPS,FTP,HTTP,SSH,C,multiple_choice
+Which OSI layer is responsible for end-to-end communication?,Session,Transport,Data Link,Network,B,multiple_choice,
+Which type of IP address is 127.0.0.1?,Loopback,Private,APIPA,Multicast,A,multiple_choice,
+Which service automatically assigns IP addresses to clients?,DNS,DHCP,IMAP,FTP,B,multiple_choice,
+What is the purpose of a subnet mask?,Assign MAC addresses,Route traffic,Determine host/network portions,Encrypt data,C,multiple_choice,
+Which cable type supports 10 Gbps over short distances?,Cat5e,Cat6,Cat3,Coaxial,B,multiple_choice,
+Which command would you use to renew a DHCP lease?,nslookup,ping,ipconfig /renew,tracert,C,multiple_choice,
+Which protocol is used to manage network devices remotely?,SMTP,IMAP,SNMP,TFTP,C,multiple_choice,
+Which IPv6 address type is equivalent to 169.254.x.x?,Multicast,Link-local,Loopback,Global unicast,B,multiple_choice,
+What does 802.1X provide?,Wireless speed,Port-based authentication,VLAN tagging,Signal strength,B,multiple_choice,
+Which type of address is used in Layer 2 communication?,IP address,MAC address,Subnet,Gateway,B,multiple_choice,
+Which port is used by IMAP?,25,110,143,993,C,multiple_choice,
+What is the purpose of the default gateway?,Translate DNS,Route internet traffic,Assign IP addresses,Secure endpoints,B,multiple_choice,
+Which of these topologies offers point-to-point communication?,Mesh,Ring,Star,Bus,A,multiple_choice,
+What device would you use to test network connectivity issues?,Multimeter,Tone generator,Loopback plug,Cable tester,D,multiple_choice,
+Which protocol resolves MAC addresses from IPs?,DHCP,TCP,ARP,ICMP,C,multiple_choice,
+Which of the following uses a connectionless protocol?,SSH,HTTP,TCP,UDP,D,multiple_choice,
+Which IEEE standard defines wireless LANs?,802.1Q,802.3,802.11,802.5,C,multiple_choice,
+Which type of attack uses fake ARP messages?,Phishing,ARP spoofing,DNS hijacking,Smurf attack,B,multiple_choice,
+Which cable would most likely be used for TV service?,Twisted Pair,Fiber,Coaxial,HDMI,C,multiple_choice,
+What is the primary purpose of DNS?,Secure IPs,Distribute DHCP,Resolve hostnames,Encrypt names,C,multiple_choice,
+Which device amplifies weak signals?,Firewall,Router,Repeater,Switch,C,multiple_choice,
+Which tool helps trace wiring in walls?,Multimeter,Tone probe,Crimper,Loopback plug,B,multiple_choice,
+What kind of address is 192.168.1.1?,Public,Private,Broadcast,Loopback,B,multiple_choice,
+Which layer of the OSI model ensures reliable delivery?,Transport,Network,Session,Data Link,A,multiple_choice,
+What is the maximum length of Ethernet over twisted pair?,50m,100m,150m,200m,B,multiple_choice
+TCP provides connection-oriented communication.,True,False,,,A,true_false,
+UDP is ideal for streaming because it has low overhead.,True,False,,,A,true_false,
+The ping command uses the ICMP protocol.,True,False,,,A,true_false,
+A MAC address can be used to route traffic across the internet.,True,False,,,B,true_false,
+The default subnet mask for a Class C network is 255.255.255.0.,True,False,,,A,true_false,
+The OSI model has 6 layers.,True,False,,,B,true_false,
+A switch operates at the Network layer.,True,False,,,B,true_false,
+NAT translates private IP addresses to public ones.,True,False,,,A,true_false,
+Port 80 is used for secure HTTP traffic.,True,False,,,B,true_false,
+DNS resolves domain names into IP addresses.,True,False,,,A,true_false,
+A repeater can regenerate a signal.,True,False,,,A,true_false,
+An IP address of 169.254.x.x is assigned via DHCP.,True,False,,,B,true_false,
+IMAP allows email to remain on the server.,True,False,,,A,true_false,
+The purpose of QoS is to prioritize certain types of network traffic.,True,False,,,A,true_false,
+IPv6 addresses are 64 bits long.,True,False,,,B,true_false,
+A firewall can block traffic based on port number.,True,False,,,A,true_false,
+An access point provides connectivity to wireless clients.,True,False,,,A,true_false,
+A coaxial cable is used primarily for fiber optic communication.,True,False,,,B,true_false,
+Traceroute displays each hop between the source and the destination.,True,False,,,A,true_false,
+802.11g operates at 5 GHz.,True,False,,,B,true_false,
+TCP is faster than UDP in all scenarios.,True,False,,,B,true_false,
+A broadcast domain is created by a router.,True,False,,,B,true_false,
+A VLAN separates networks at Layer 3.,True,False,,,B,true_false,
+An RJ-45 connector is used with fiber optic cables.,True,False,,,B,true_false,
+The loopback address is used to test the local TCP/IP stack.,True,False,,,A,true_false
+A switch reduces collisions on a network.,True,False,,,A,true_false,
+A hub sends traffic only to the destination port.,True,False,,,B,true_false,
+Port 23 is used for Telnet.,True,False,,,A,true_false,
+The Transport layer of the OSI model is Layer 3.,True,False,,,B,true_false,
+SNMP is used to monitor and manage network devices.,True,False,,,A,true_false,
+The TTL field prevents packets from circulating forever.,True,False,,,A,true_false,
+DNS uses port 25.,True,False,,,B,true_false,
+The command ipconfig /all shows MAC addresses.,True,False,,,A,true_false,
+ICMP is a transport layer protocol.,True,False,,,B,true_false,
+Port 443 is used for HTTPS.,True,False,,,A,true_false,
+Static IPs are more commonly used for servers.,True,False,,,A,true_false,
+UDP provides guaranteed delivery.,True,False,,,B,true_false,
+802.1Q is used for VLAN tagging.,True,False,,,A,true_false,
+Ping can help identify network latency.,True,False,,,A,true_false,
+MAC filtering is a strong security mechanism.,True,False,,,B,true_false,
+A T1 line provides 1.544 Mbps.,True,False,,,A,true_false,
+Wi-Fi signals cannot be intercepted.,True,False,,,B,true_false,
+A subnet can help reduce network congestion.,True,False,,,A,true_false,
+Switches can isolate broadcast domains.,True,False,,,B,true_false,
+802.11n supports MIMO.,True,False,,,A,true_false,
+SSH encrypts terminal sessions.,True,False,,,A,true_false,
+Tracert is used to test DNS resolution.,True,False,,,B,true_false,
+A VPN encrypts all network traffic.,True,False,,,A,true_false,
+Port 110 is used by the POP3 protocol.,True,False,,,A,true_false,
+A demilitarized zone (DMZ) exposes services to the public.,True,False,,,A,true_false
+TCP uses a three-way handshake to establish connections.,True,False,,,A,true_false,
+DHCP uses port 67 and 68.,True,False,,,A,true_false,
+A VLAN can span multiple switches.,True,False,,,A,true_false,
+Rogue access points can be a security threat.,True,False,,,A,true_false,
+The OSI model's Data Link layer handles IP addressing.,True,False,,,B,true_false,
+An IDS actively blocks malicious traffic.,True,False,,,B,true_false,
+802.11ac operates only on the 5 GHz band.,True,False,,,A,true_false,
+Port 22 is used by SSH.,True,False,,,A,true_false,
+The ping command can help verify DNS configuration.,True,False,,,B,true_false,
+CIDR allows more efficient use of IP addresses.,True,False,,,A,true_false,
+Firewalls can operate at multiple layers of the OSI model.,True,False,,,A,true_false,
+A WAP always includes routing capabilities.,True,False,,,B,true_false,
+Loopback addresses cannot communicate with external devices.,True,False,,,A,true_false,
+SNMP can be used to reboot a device.,True,False,,,A,true_false,
+UDP provides faster communication than TCP.,True,False,,,A,true_false,
+A MAC address is burned into the NIC.,True,False,,,A,true_false,
+A switch increases the number of collision domains.,True,False,,,A,true_false,
+Wireless channels can overlap and cause interference.,True,False,,,A,true_false,
+IPv6 has a larger address space than IPv4.,True,False,,,A,true_false,
+A firewall can perform NAT.,True,False,,,A,true_false,
+A bridge connects two networks and operates at Layer 2.,True,False,,,A,true_false,
+802.11 standards define wired Ethernet.,True,False,,,B,true_false,
+A DMZ is used to isolate public-facing servers.,True,False,,,A,true_false,
+The default gateway is required for communication outside the LAN.,True,False,,,A,true_false,
+A protocol analyzer can inspect the contents of packets.,True,False,,,A,true_false
+ICMP can be used for network diagnostics.,True,False,,,A,true_false,
+Private IP addresses can be routed over the public internet.,True,False,,,B,true_false,
+A MAC address is 48 bits long.,True,False,,,A,true_false,
+Switches reduce broadcast traffic.,True,False,,,B,true_false,
+Trunk ports carry traffic for multiple VLANs.,True,False,,,A,true_false,
+The OSI model’s Application layer is responsible for encryption.,True,False,,,B,true_false,
+Wireless networks are more secure than wired by default.,True,False,,,B,true_false,
+Port 25 is used to send email.,True,False,,,A,true_false,
+TCP ensures ordered data delivery.,True,False,,,A,true_false,
+A collision domain is reduced by adding switches.,True,False,,,A,true_false,
+The loopback address is 0.0.0.0.,True,False,,,B,true_false,
+IPv6 eliminates the need for NAT.,True,False,,,A,true_false,
+NAT hides internal IP addresses from the public internet.,True,False,,,A,true_false,
+Telnet encrypts all data.,True,False,,,B,true_false,
+RADIUS is used for centralized authentication.,True,False,,,A,true_false,
+An access control list (ACL) can block specific IP addresses.,True,False,,,A,true_false,
+ARP is used to map MAC addresses to IP addresses.,True,False,,,B,true_false,
+Fiber cables are immune to EMI.,True,False,,,A,true_false,
+A subnet mask of 255.255.255.0 supports 254 hosts.,True,False,,,A,true_false,
+IPSec can encrypt both IPv4 and IPv6 traffic.,True,False,,,A,true_false,
+Wi-Fi Protected Access 2 (WPA2) is more secure than WEP.,True,False,,,A,true_false,
+Port 161 is used for SNMP.,True,False,,,A,true_false,
+A rogue DHCP server can cause network issues.,True,False,,,A,true_false,
+SCP is used for secure file transfer.,True,False,,,A,true_false,
+Layer 7 of the OSI model is the Application layer.,True,False,,,A,true_false
+Match the ports to their services.,,,,,,drag_and_drop,"{""20/21"": ""FTP"", ""22"": ""SSH"", ""443"": ""HTTPS""}"
+Match OSI layers to functions.,,,,,,drag_and_drop,"{""Layer 1"": ""Physical"", ""Layer 3"": ""Routing"", ""Layer 7"": ""Application""}"
+Match protocols to their port numbers.,,,,,,drag_and_drop,"{""SMTP"": ""25"", ""IMAP"": ""143"", ""POP3"": ""110""}"
+Match cable types to characteristics.,,,,,,drag_and_drop,"{""UTP"": ""Unshielded twisted pair"", ""Fiber"": ""Light-based"", ""Coaxial"": ""Copper core""}"
+Match wireless standards to frequencies.,,,,,,drag_and_drop,"{""802.11n"": ""2.4/5 GHz"", ""802.11ac"": ""5 GHz only"", ""802.11b"": ""2.4 GHz""}"
+Match IP ranges to types.,,,,,,drag_and_drop,"{""10.0.0.0/8"": ""Private"", ""169.254.x.x"": ""APIPA"", ""8.8.8.8"": ""Public""}"
+Match tools to uses.,,,,,,drag_and_drop,"{""Crimper"": ""Attach connectors"", ""Tone generator"": ""Trace cables"", ""Loopback plug"": ""Test NIC""}"
+Match devices to OSI layers.,,,,,,drag_and_drop,"{""Switch"": ""Layer 2"", ""Router"": ""Layer 3"", ""Firewall"": ""Layer 4+"",""}"
+Match DNS record types.,,,,,,drag_and_drop,"{""A"": ""IPv4 address"", ""MX"": ""Mail exchange"", ""CNAME"": ""Alias""}"
+Match authentication types.,,,,,,drag_and_drop,"{""RADIUS"": ""Central auth"", ""TACACS+"": ""Cisco auth"", ""LDAP"": ""Directory service""}"
+Match media types to connectors.,,,,,,drag_and_drop,"{""Fiber"": ""LC"", ""Coaxial"": ""F-type"", ""Twisted pair"": ""RJ-45""}"
+Match command-line tools to function.,,,,,,drag_and_drop,"{""ping"": ""Check connectivity"", ""ipconfig"": ""IP info"", ""tracert"": ""Path trace""}"
+Match security protocols to use.,,,,,,drag_and_drop,"{""WEP"": ""Legacy encryption"", ""WPA2"": ""Current standard"", ""802.1X"": ""Port-based auth""}"
+Match IPv6 address types.,,,,,,drag_and_drop,"{""FE80::"": ""Link-local"", ""::1"": ""Loopback"", ""2001::"": ""Global unicast""}"
+Match devices to their purpose.,,,,,,drag_and_drop,"{""Firewall"": ""Filter traffic"", ""Router"": ""Forward packets"", ""Switch"": ""Segment LAN""}"
+Match protocols to functions.,,,,,,drag_and_drop,"{""SNMP"": ""Monitor devices"", ""NTP"": ""Sync clocks"", ""SCP"": ""Secure file transfer""}"
+Match wireless encryption standards.,,,,,,drag_and_drop,"{""WEP"": ""Weak"", ""WPA"": ""Improved"", ""WPA2"": ""Strong""}"
+Match Ethernet standards to speeds.,,,,,,drag_and_drop,"{""100BASE-T"": ""100 Mbps"", ""1000BASE-T"": ""1 Gbps"", ""10GBASE-T"": ""10 Gbps""}"
+Match types of attacks.,,,,,,drag_and_drop,"{""Phishing"": ""Deceptive emails"", ""DoS"": ""Overwhelm resource"", ""MITM"": ""Intercept traffic""}"
+Match address types.,,,,,,drag_and_drop,"{""Public IP"": ""Globally routable"", ""Private IP"": ""Internal use only"", ""Loopback"": ""Self-test""}"
+Match WAN technologies.,,,,,,drag_and_drop,"{""DSL"": ""Over phone lines"", ""Fiber"": ""High-speed optical"", ""Cable"": ""TV coax""}"
+Match wireless bands to use cases.,,,,,,drag_and_drop,"{""2.4 GHz"": ""Longer range, more interference"", ""5 GHz"": ""Shorter range, faster"", ""6 GHz"": ""Wi-Fi 6E""}"
+Match transmission types.,,,,,,drag_and_drop,"{""Unicast"": ""One-to-one"", ""Multicast"": ""One-to-many"", ""Broadcast"": ""To all""}"
+Match security zones.,,,,,,drag_and_drop,"{""LAN"": ""Trusted internal"", ""DMZ"": ""Public-facing"", ""WAN"": ""Untrusted""}"
+Match protocols to layers.,,,,,,drag_and_drop,"{""TCP"": ""Transport"", ""IP"": ""Network"", ""Ethernet"": ""Data Link""}"
+Match address versions to length.,,,,,,drag_and_drop,"{""IPv4"": ""32-bit"", ""IPv6"": ""128-bit"", ""MAC"": ""48-bit""}"
+Match service types.,,,,,,drag_and_drop,"{""DHCP"": ""Dynamic addressing"", ""DNS"": ""Name resolution"", ""FTP"": ""File transfer""}"
+Match fiber types.,,,,,,drag_and_drop,"{""Single-mode"": ""Long distance"", ""Multimode"": ""Shorter distance"", ""Plastic optical"": ""Low-cost""}"
+Match switch features.,,,,,,drag_and_drop,"{""PoE"": ""Power over Ethernet"", ""VLAN"": ""Segmentation"", ""Trunking"": ""Multiple VLANs""}"
+Match cabling standards to usage.,,,,,,drag_and_drop,"{""Cat5e"": ""Gigabit Ethernet"", ""Cat6a"": ""10 Gbps up to 100m"", ""Cat3"": ""Voice only""}"
+Match connection types.,,,,,,drag_and_drop,"{""Wired"": ""Ethernet"", ""Wireless"": ""Wi-Fi"", ""Cellular"": ""LTE/5G""}"
+Match firewall functions.,,,,,,drag_and_drop,"{""Packet filtering"": ""Allow/deny by header"", ""Stateful inspection"": ""Track connections"", ""Application proxy"": ""Inspect content""}"
+Match VPN protocols.,,,,,,drag_and_drop,"{""IPSec"": ""Secure IP layer"", ""PPTP"": ""Legacy tunneling"", ""L2TP"": ""Tunnel-only""}"
+Match signal types.,,,,,,drag_and_drop,"{""Analog"": ""Continuous wave"", ""Digital"": ""Discrete values"", ""Modulated"": ""Altered for transmission""}"
+Match connector types to descriptions.,,,,,,drag_and_drop,"{""LC"": ""Fiber duplex"", ""RJ-11"": ""Phone line"", ""DB-9"": ""Serial console""}"
+Match device types.,,,,,,drag_and_drop,"{""Router"": ""Directs traffic"", ""Bridge"": ""Joins networks"", ""Hub"": ""Broadcasts to all ports""}"
+Match routing protocols.,,,,,,drag_and_drop,"{""OSPF"": ""Link-state"", ""RIP"": ""Distance vector"", ""BGP"": ""Path-vector""}"
+Match wireless threats.,,,,,,drag_and_drop,"{""Rogue AP"": ""Unauthorized access point"", ""Evil twin"": ""Fake Wi-Fi source"", ""War driving"": ""Wi-Fi scanning""}"
+Match DHCP components.,,,,,,drag_and_drop,"{""Lease"": ""Temporary IP"", ""Scope"": ""Range of addresses"", ""Reservation"": ""Static mapping""}"
+Match layers to tasks.,,,,,,drag_and_drop,"{""Transport"": ""Reliable delivery"", ""Data Link"": ""Framing"", ""Network"": ""Routing""}"
+Match tools to purpose.,,,,,,drag_and_drop,"{""Multimeter"": ""Test voltage"", ""Tone generator"": ""Trace wiring"", ""Punchdown tool"": ""Wire to block""}"
+Match access methods.,,,,,,drag_and_drop,"{""CSMA/CD"": ""Wired Ethernet"", ""CSMA/CA"": ""Wireless"", ""Token passing"": ""Token Ring""}"
+Match subnet masks to CIDR.,,,,,,drag_and_drop,"{""/24"": ""255.255.255.0"", ""/16"": ""255.255.0.0"", ""/8"": ""255.0.0.0""}"
+Match NAT types.,,,,,,drag_and_drop,"{""Static NAT"": ""One-to-one mapping"", ""Dynamic NAT"": ""Pool of public IPs"", ""PAT"": ""Port-based""}"
+Match monitoring tools.,,,,,,drag_and_drop,"{""SNMP"": ""Status checks"", ""Syslog"": ""Event logging"", ""NetFlow"": ""Traffic analysis""}"
+Match fiber connectors.,,,,,,drag_and_drop,"{""SC"": ""Push-pull square"", ""ST"": ""Twist-on bayonet"", ""LC"": ""Small form factor""}"
+Match common ports.,,,,,,drag_and_drop,"{""80"": ""HTTP"", ""110"": ""POP3"", ""443"": ""HTTPS""}"
+Match IPv4 classes.,,,,,,drag_and_drop,"{""Class A"": ""1.0.0.0 – 126.255.255.255"", ""Class B"": ""128.0.0.0 – 191.255.255.255"", ""Class C"": ""192.0.0.0 – 223.255.255.255""}"
+Match wireless modes.,,,,,,drag_and_drop,"{""Infrastructure"": ""Uses APs"", ""Ad hoc"": ""Peer-to-peer"", ""Mesh"": ""Multi-hop""}"
+Match cabling faults.,,,,,,drag_and_drop,"{""Split pair"": ""Miswired pairs"", ""Open"": ""Disconnected wire"", ""Short"": ""Wires touching""}"
+Match VPN types.,,,,,,drag_and_drop,"{""Site-to-site"": ""Connects offices"", ""Remote access"": ""Individual users"", ""Client-based"": ""User software""}"
+Match types of IP addresses.,,,,,,drag_and_drop,"{""Static"": ""Manually assigned"", ""Dynamic"": ""DHCP assigned"", ""Reserved"": ""Fixed by DHCP""}"
+Match OSI model layers to devices.,,,,,,drag_and_drop,"{""Layer 1"": ""Hub"", ""Layer 2"": ""Switch"", ""Layer 3"": ""Router""}"
+Match cloud services.,,,,,,drag_and_drop,"{""IaaS"": ""Virtual machines"", ""PaaS"": ""Dev environment"", ""SaaS"": ""Hosted apps""}"
+Match network devices to function.,,,,,,drag_and_drop,"{""Switch"": ""Forward by MAC"", ""Router"": ""Route by IP"", ""Firewall"": ""Filter traffic""}"
+Match Wi-Fi types to range.,,,,,,drag_and_drop,"{""2.4 GHz"": ""Greater range"", ""5 GHz"": ""Faster speed"", ""6 GHz"": ""Newest band""}"
+Match port numbers to names.,,,,,,drag_and_drop,"{""23"": ""Telnet"", ""161"": ""SNMP"", ""53"": ""DNS""}"
+Match topology to characteristic.,,,,,,drag_and_drop,"{""Star"": ""Central switch"", ""Mesh"": ""Redundant paths"", ""Bus"": ""Single cable""}"
+Match addressing methods.,,,,,,drag_and_drop,"{""Unicast"": ""One to one"", ""Broadcast"": ""One to all"", ""Multicast"": ""One to many""}"
+Match network types.,,,,,,drag_and_drop,"{""PAN"": ""Personal area"", ""LAN"": ""Local area"", ""WAN"": ""Wide area""}"
+Match wireless technologies.,,,,,,drag_and_drop,"{""Bluetooth"": ""Short range"", ""Wi-Fi"": ""Wireless LAN"", ""Zigbee"": ""IoT automation""}"
+Match switch components.,,,,,,drag_and_drop,"{""MAC table"": ""Forwarding decisions"", ""VLAN config"": ""Segmentation"", ""Trunk port"": ""Multi-VLAN link""}"
+Match IPv6 prefixes.,,,,,,drag_and_drop,"{""::1"": ""Loopback"", ""fe80::"": ""Link-local"", ""ff00::"": ""Multicast""}"
+Match patching tools.,,,,,,drag_and_drop,"{""Patch panel"": ""Cable management"", ""Punchdown tool"": ""Wire insertion"", ""RJ-45"": ""Network plug""}"
+Match VPN technologies.,,,,,,drag_and_drop,"{""SSL"": ""TLS-based VPN"", ""IPSec"": ""Encrypted tunnel"", ""GRE"": ""Encapsulation""}"
+Match authentication protocols.,,,,,,drag_and_drop,"{""RADIUS"": ""AAA protocol"", ""Kerberos"": ""Ticket-based"", ""EAP"": ""Extensible""}"
+Match command-line tools.,,,,,,drag_and_drop,"{""netstat"": ""View connections"", ""nslookup"": ""DNS query"", ""arp"": ""MAC cache""}"
+Match Wi-Fi security settings.,,,,,,drag_and_drop,"{""WPA2"": ""Strong"", ""WEP"": ""Weak"", ""Open"": ""Unsecured""}"
+Match cable testing results.,,,,,,drag_and_drop,"{""Near end crosstalk"": ""Signal bleed"", ""Open pair"": ""No continuity"", ""Miswire"": ""Wrong sequence""}"
+Match DNS roles.,,,,,,drag_and_drop,"{""Resolver"": ""Queries on behalf of host"", ""Authoritative server"": ""Has zone records"", ""Root server"": ""Top of hierarchy""}"
+Match firewall rule types.,,,,,,drag_and_drop,"{""Allow"": ""Permit traffic"", ""Deny"": ""Block traffic"", ""Implicit deny"": ""Default block""}"
+Match addressing formats.,,,,,,drag_and_drop,"{""192.168.1.1"": ""IPv4"", ""FE80::1"": ""IPv6"", ""00:1A:2B:3C:4D:5E"": ""MAC""}"
+Match Wi-Fi channels.,,,,,,drag_and_drop,"{""1, 6, 11"": ""Non-overlapping"", ""3, 5, 9"": ""Overlapping"", ""14"": ""Japan only""}"
+Match cable types to standards.,,,,,,drag_and_drop,"{""Cat5e"": ""1 Gbps max"", ""Cat6"": ""10 Gbps short"", ""Cat3"": ""Legacy phones""}"
+Match switch modes.,,,,,,drag_and_drop,"{""Cut-through"": ""Fast, low latency"", ""Store-and-forward"": ""Error check first"", ""Fragment-free"": ""Balance of both""}"
+Match link states.,,,,,,drag_and_drop,"{""Up"": ""Operational"", ""Down"": ""Disconnected"", ""Admin down"": ""Manually disabled""}"
+Match encryption types.,,,,,,drag_and_drop,"{""AES"": ""Symmetric block"", ""RSA"": ""Asymmetric key"", ""TLS"": ""Transport security""}"
+Match troubleshooting steps.,,,,,,drag_and_drop,"{""Identify problem"": ""Step 1"", ""Establish theory"": ""Step 2"", ""Implement solution"": ""Step 5""}"
+Match IPv6 transition methods.,,,,,,drag_and_drop,"{""Dual stack"": ""Run both IPv4/IPv6"", ""Tunneling"": ""Encapsulate IPv6"", ""Translation"": ""Convert IPv6 to IPv4""}"
+Match cloud models.,,,,,,drag_and_drop,"{""Public"": ""Shared resources"", ""Private"": ""Dedicated resources"", ""Hybrid"": ""Mixed environment""}"
+Match VPN benefits.,,,,,,drag_and_drop,"{""Encryption"": ""Secure traffic"", ""Remote access"": ""Work from anywhere"", ""Tunneling"": ""Encapsulate data""}"
+Match routing types.,,,,,,drag_and_drop,"{""Static"": ""Manually set"", ""Dynamic"": ""Auto-learned"", ""Default"": ""Fallback route""}"
+Match antenna types.,,,,,,drag_and_drop,"{""Omni"": ""360° coverage"", ""Yagi"": ""Directional"", ""Parabolic"": ""Long-distance""}"
+Match monitoring metrics.,,,,,,drag_and_drop,"{""Latency"": ""Delay"", ""Jitter"": ""Variation"", ""Throughput"": ""Data rate""}"
+Match server roles.,,,,,,drag_and_drop,"{""DHCP"": ""IP assignment"", ""DNS"": ""Name resolution"", ""File"": ""Data storage""}"
+Match interference types.,,,,,,drag_and_drop,"{""RFI"": ""Radio noise"", ""EMI"": ""Magnetic noise"", ""Crosstalk"": ""Signal bleeding""}"
+Match network policies.,,,,,,drag_and_drop,"{""Acceptable use"": ""Proper behavior"", ""Password policy"": ""Credential rules"", ""Remote access"": ""VPN rules""}"
+Match switch behavior.,,,,,,drag_and_drop,"{""Flood"": ""Unknown MAC"", ""Forward"": ""Known MAC"", ""Filter"": ""Drop frame""}"
+Match routing tables.,,,,,,drag_and_drop,"{""Metric"": ""Cost of route"", ""Next hop"": ""Where to go"", ""Destination"": ""Final network""}"
+Match radio frequency metrics.,,,,,,drag_and_drop,"{""Signal strength"": ""Power level"", ""Noise floor"": ""Background noise"", ""SNR"": ""Signal-to-noise ratio""}"
+Match address types to protocols.,,,,,,drag_and_drop,"{""IP"": ""Internet Protocol"", ""MAC"": ""Ethernet"", ""Port"": ""TCP/UDP""}"
+Match log types.,,,,,,drag_and_drop,"{""System"": ""Device events"", ""Security"": ""Access logs"", ""Application"": ""Software errors""}"
+Match patching methods.,,,,,,drag_and_drop,"{""Manual"": ""Admin-initiated"", ""Automated"": ""Policy-based"", ""Scheduled"": ""Timed update""}"
+Match common resolutions.,,,,,,drag_and_drop,"{""1920x1080"": ""Full HD"", ""1280x720"": ""HD"", ""3840x2160"": ""4K UHD""}"
+Match IPv6 components.,,,,,,drag_and_drop,"{""Prefix"": ""Network portion"", ""Interface ID"": ""Host portion"", ""Subnet ID"": ""Subnet""}"
+Match command outputs.,,,,,,drag_and_drop,"{""ipconfig"": ""IP settings"", ""arp -a"": ""MAC cache"", ""netstat"": ""Active connections""}"
+Match bandwidth units.,,,,,,drag_and_drop,"{""Kbps"": ""1,000 bps"", ""Mbps"": ""1,000,000 bps"", ""Gbps"": ""1,000,000,000 bps""}"
+Match media types to speeds.,,,,,,drag_and_drop,"{""Cat5e"": ""1 Gbps max"", ""Cat6a"": ""10 Gbps"", ""Fiber"": ""Up to 100 Gbps""}"
+Match DHCP options.,,,,,,drag_and_drop,"{""Option 3"": ""Default gateway"", ""Option 6"": ""DNS server"", ""Option 15"": ""Domain name""}"
+Match segmentation methods.,,,,,,drag_and_drop,"{""VLAN"": ""Logical LANs"", ""Subnet"": ""IP division"", ""Physical"": ""Separate hardware""}"
