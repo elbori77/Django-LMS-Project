@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="IBvU3auWC6ODS0_HSJzR" name="Page-1">
-        <mxGraphModel dx="1725" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+        <mxGraphModel dx="1106" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -41,7 +41,7 @@
                         <mxPoint x="225" y="480" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="26" edge="1">
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.067;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="26" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="455" y="500" as="targetPoint"/>
                         <mxPoint x="415" y="420" as="sourcePoint"/>
@@ -83,26 +83,26 @@
                 </mxCell>
                 <mxCell id="38" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="26" target="39" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="605" y="530" as="targetPoint"/>
+                        <mxPoint x="645" y="610" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="72" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="32">
+                <mxCell id="72" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="26" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="73">
+                <mxCell id="74" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="26" target="73" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="Settings" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="475" y="490" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="515" y="570" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="Timer on/off" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="615" width="70" height="35" as="geometry"/>
+                    <mxGeometry x="470" y="695" width="70" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="Reset Password Page" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="680" y="505" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="Reset Score" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="615" width="70" height="35" as="geometry"/>
+                    <mxGeometry x="550" y="695" width="70" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="40" target="44" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -125,7 +125,7 @@
                 <mxCell id="50" value="A+ Exam" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
                     <mxGeometry x="78.75" y="690" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="54" target="64">
+                <mxCell id="65" value="" style="edgeStyle=none;html=1;" parent="1" source="54" target="64" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="54" value="Scoreboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
@@ -137,29 +137,32 @@
                 <mxCell id="57" value="Reset Password Link" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
                     <mxGeometry x="680" y="440" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="Testing, timing and scoring system complete. Some dummy questions got mixed with the real questions need clean up and run question generation script.&amp;nbsp;" style="text;align=center;verticalAlign=middle;rounded=0;html=1;whiteSpace=wrap;fontStyle=0" vertex="1" parent="1">
-                    <mxGeometry x="40" y="730" width="347.5" height="90" as="geometry"/>
+                <mxCell id="61" value="Test were seeded. Pending audit to check off complete.&amp;nbsp;" style="text;align=center;verticalAlign=middle;rounded=0;html=1;whiteSpace=wrap;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="45" y="720" width="347.5" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
+                <mxCell id="63" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="88.75" y="740" width="260" height="10" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="Scoreboard A+/Net+/Sec+" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+                <mxCell id="64" value="Scoreboard A+/Net+/Sec+" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
                     <mxGeometry x="303.75" y="590" width="110" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
+                <mxCell id="66" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="303.75" y="635" width="115" height="10" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="Scoreboard is fully functional" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="301.25" y="645" width="117.5" height="30" as="geometry"/>
+                <mxCell id="71" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=1;aspect=fixed;image=img/clipart/Gear_128x128.png;strokeWidth=1;fontSize=7;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="750" width="22" height="25.81" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=1;aspect=fixed;image=img/clipart/Gear_128x128.png;strokeWidth=1;fontSize=7;" vertex="1" parent="1">
-                    <mxGeometry x="30" y="750" width="22" height="25.81" as="geometry"/>
-                </mxCell>
-                <mxCell id="77" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="73" target="34">
+                <mxCell id="77" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="73" target="34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="Reset password" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="590" y="615" width="70" height="35" as="geometry"/>
+                <mxCell id="73" value="Reset password" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="695" width="70" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="*Set inactivity timeout*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="505" y="505" width="140" height="35" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

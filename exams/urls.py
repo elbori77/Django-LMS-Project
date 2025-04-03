@@ -19,5 +19,8 @@ urlpatterns = [
     
     path('scoreboard/', scoreboard_view, name='scoreboard'),
 
-    
+    path('settings/', settings_view, name='settings'),
+    path('settings/reset-scoreboard/', reset_scoreboard, name='reset_scoreboard'),
+    path('settings/change-password/', change_password_view, name='change_password'),
+
 ]

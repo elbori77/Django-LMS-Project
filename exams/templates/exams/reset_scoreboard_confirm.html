@@ -1,0 +1,9 @@
+{% extends 'exams/base.html' %}
+{% block content %}
+<h2>Confirm Scoreboard Reset</h2>
+<p>This will delete all your previous exam scores. Are you sure?</p>
+<form method="post">{% csrf_token %}
+  <button type="submit" class="btn btn-danger">Yes, Reset</button>
+  <a href="{% url 'settings' %}" class="btn btn-secondary">Cancel</a>
+</form>
+{% endblock %}

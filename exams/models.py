@@ -34,3 +34,10 @@ class UserAttempt(models.Model):
     timestamp = models.DateTimeField(auto_now_add=True)
     time_taken = models.DurationField(blank=True, null=True)
     feedback = models.JSONField(blank=True, null=True)
+
+class UserSettings(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    timer_enabled = models.BooleanField(default=True)
+
+    def __str__(self):
+        return f"Settings for {self.user.username}"

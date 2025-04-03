@@ -1,0 +1,22 @@
+{% extends 'exams/base.html' %}
+{% block content %}
+<div class="form-container text-center">
+<h2>Settings</h2>
+<form method="post">{% csrf_token %}
+  <label>
+    <input type="checkbox" name="timer_enabled" {% if settings.timer_enabled %}checked{% endif %}>
+    Enable Exam Timer
+  </label>
+  <br><br>
+  <button type="submit" class="btn btn-primary">Save Settings</button>
+</form>
+
+<hr>
+<form method="post" action="{% url 'reset_scoreboard' %}">{% csrf_token %}
+  <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to reset your scoreboard?');">Reset Scoreboard</button>
+</form>
+
+<hr>
+<a href="{% url 'change_password' %}" class="btn btn-warning">Change Password</a>
+</div>
+{% endblock %}

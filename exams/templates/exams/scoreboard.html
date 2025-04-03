@@ -32,9 +32,9 @@
                     <tbody>
                         {% for attempt in a_attempts %}
                             <tr>
-                                <td>{{ attempt.timestamp|date:"M d, Y H:i" }}</td>
+                                <td>{{ attempt.timestamp|date:"M d, Y h:i A" }}</td>
                                 <td>{{ attempt.score }} / 900</td>
-                                <td>{{ attempt.time_taken }}</td>
+                                <td>{{ attempt.formatted_time }}</td>
                                 <td>
                                     {% if attempt.score >= 750 %}
                                         <span class="text-success fw-bold">Passed</span>
@@ -66,9 +66,9 @@
                     <tbody>
                         {% for attempt in net_attempts %}
                             <tr>
-                                <td>{{ attempt.timestamp|date:"M d, Y H:i" }}</td>
+                                <td>{{ attempt.timestamp|date:"M d, Y h:i A" }}</td>
                                 <td>{{ attempt.score }} / 900</td>
-                                <td>{{ attempt.time_taken }}</td>
+                                <td>{{ attempt.formatted_time }}</td>
                                 <td>
                                     {% if attempt.score >= 750 %}
                                         <span class="text-success fw-bold">Passed</span>
@@ -100,9 +100,9 @@
                     <tbody>
                         {% for attempt in sec_attempts %}
                             <tr>
-                                <td>{{ attempt.timestamp|date:"M d, Y H:i" }}</td>
+                                <td>{{ attempt.timestamp|date:"M d, Y h:i A" }}</td>
                                 <td>{{ attempt.score }} / 900</td>
-                                <td>{{ attempt.time_taken }}</td>
+                                <td>{{ attempt.formatted_time }}</td>
                                 <td>
                                     {% if attempt.score >= 750 %}
                                         <span class="text-success fw-bold">Passed</span>

@@ -4,7 +4,7 @@
 <div class="container mt-5">
     <div class="text-center mb-4">
         <h2>{{ exam.name }} Results</h2>
-        <p><strong>Date Taken:</strong> {{ timestamp|date:"M d, Y H:i" }}</p>
+        <p><strong>Date Taken:</strong> {{ timestamp|date:"M d, Y h:i A" }}</p>
         <p><strong>Time Spent:</strong> {{ time_taken }}</p>
         <p><strong>Score:</strong> {{ score }} / 900</p>
         <p>
@@ -22,17 +22,40 @@
         <div class="card-body">
             <h5 class="card-title">Feedback on Incorrect Answers</h5>
             <ul class="list-group list-group-flush">
-                {% for qtext, info in feedback.items %}
+                {% for question_text, info in feedback.items %}
                     <li class="list-group-item">
-                        <strong>Question:</strong> {{ qtext }}<br>
-                        <strong>Your Answer:</strong> {{ info.your_answer }}<br>
-                        <strong>Correct Answer:</strong> {{ info.correct_answer }}
+                        <strong>Question:</strong> {{ question_text }}<br>
+
+                        <strong>Your Answer:</strong>
+                        {% if info.your_answer.items %}
+                            <ul class="mb-2">
+                                {% for k, v in info.your_answer.items %}
+                                    <li>{{ k }} → {{ v }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% else %}
+                            {{ info.your_answer }}
+                        {% endif %}
+
+                        <strong>Correct Answer:</strong>
+                        {% if info.correct_answer.items %}
+                            <ul>
+                                {% for k, v in info.correct_answer.items %}
+                                    <li>{{ k }} → {{ v }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% else %}
+                            {{ info.correct_answer }}
+                        {% endif %}
                     </li>
                 {% endfor %}
             </ul>
         </div>
     </div>
     {% endif %}
+
+
+
 
     <div class="text-center mt-4">
         <a href="{% url 'dashboard' %}" class="btn btn-primary">Back to Dashboard</a>

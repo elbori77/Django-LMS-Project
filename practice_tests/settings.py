@@ -140,3 +140,8 @@ EMAIL_USE_SSL = False
 EMAIL_HOST_USER = 'no-reply@trythiscode.com'
 EMAIL_HOST_PASSWORD = 'P$IY8MkXMMiy'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+# Inactivity timeout in seconds (e.g., 15 minutes = 900 seconds)
+SESSION_COOKIE_AGE = 900  
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_SAVE_EVERY_REQUEST = True  # Optional: resets timer on every request

@@ -6,6 +6,7 @@
         {% csrf_token %}
         <input type="hidden" name="start_time" value="{{ start_time }}">
         <input type="hidden" name="answers" id="answers">
+        <input type="hidden" name="question_ids" value="{% for q in questions %}{{ q.id }}{% if not forloop.last %},{% endif %}{% endfor %}">
 
         {% for q in questions %}
         <div class="card mb-4">
@@ -35,32 +36,36 @@
                     </div>
 
                 {% elif q.question_type == 'drag_and_drop' and q.extra_data.pairs %}
-                    <div class="drag-drop-wrapper mb-3" data-question-id="{{ q.id }}">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h6>Items</h6>
-                                <ul class="list-group source-items" id="source-{{ q.id }}">
-                                    {% for key, value in q.extra_data.pairs.items %}
-                                        <li class="list-group-item draggable" draggable="true" data-key="{{ key }}">
-                                            {{ key }}
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <h6>Match To</h6>
-                                <ul class="list-group target-items" id="target-{{ q.id }}">
-                                    {% for key, value in q.extra_data.pairs.items %}
-                                        <li class="list-group-item dropzone" data-key="{{ key }}">
-                                            {{ value }}<br>
-                                            <small class="text-muted">Drop match here</small>
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
+                <div class="drag-drop-wrapper mb-3" data-question-id="{{ q.id }}">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Items</h6>
+                            <ul class="list-group source-items" id="source-{{ q.id }}">
+                                {% for key, value in q.extra_data.pairs.items %}
+                                    <li class="list-group-item draggable" draggable="true" data-key="{{ key }}">
+                                        {{ key }}
+                                    </li>
+                                {% endfor %}
+                            </ul>
                         </div>
-                        <input type="hidden" name="q{{ q.id }}" id="match-q{{ q.id }}">
+                        <div class="col-md-6">
+                            <h6>Match To</h6>
+                            <ul class="list-group target-items" id="target-{{ q.id }}">
+                                {% for key, value in q.extra_data.pairs.items %}
+                                     <li class="list-group-item dropzone" data-key="{{ value }}">
+
+
+
+                                        {{ value }}<br>
+                                        <small class="text-muted">Drop match here</small>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
                     </div>
+                    <input type="hidden" name="q{{ q.id }}" id="match-q{{ q.id }}">
+                </div>
+            
                 {% endif %}
             </div>
         </div>
@@ -73,101 +78,132 @@
 <div id="timer" class="fixed-timer"></div>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-    let submitting = false;
-
-    const form = document.getElementById('examForm');
-    const answersEl = document.getElementById('answers');
-    const timerEl = document.getElementById('timer');
-    const startTimeStr = document.querySelector('input[name="start_time"]').value;
-    const startTime = new Date(startTimeStr);
-    const endTime = new Date(startTime.getTime() + 90 * 60 * 1000); // 90 mins
-
-    function updateTimer() {
-        const now = new Date();
-        const diff = endTime - now;
-
-        if (diff <= 0) {
-            timerEl.textContent = "Time left: 0m 00s";
-            clearInterval(interval);
-            submitAnswers();
-            return;
-        }
-
-        const totalSeconds = Math.floor(diff / 1000);
-        const minutes = Math.floor(totalSeconds / 60);
-        const seconds = totalSeconds % 60;
-        timerEl.textContent = `Time left: ${minutes}m ${seconds < 10 ? '0' + seconds : seconds}s`;
-    }
-
-    function submitAnswers() {
-        const data = {};
-        document.querySelectorAll("input[type='radio']:checked").forEach(input => {
-            const qid = input.name.replace('q', '');
-            data[qid] = input.value;
-        });
-
-        // Add drag-and-drop responses
-        document.querySelectorAll("input[type='hidden'][id^='match-q']").forEach(input => {
-            if (input.value) {
+    document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('examForm');
+        const answersEl = document.getElementById('answers');
+        let submitting = false;
+    
+        function collectAnswers() {
+            const data = {};
+    
+            // Multiple choice + True/False
+            document.querySelectorAll("input[type='radio']:checked").forEach(input => {
                 const qid = input.name.replace('q', '');
                 data[qid] = input.value;
+            });
+    
+            // Drag-and-drop inputs
+            document.querySelectorAll("input[type='hidden'][id^='match-q']").forEach(input => {
+                if (input.value) {
+                    const qid = input.name.replace('q', '');
+                    data[qid] = input.value;
+                }
+            });
+    
+            answersEl.value = JSON.stringify(data);
+            return data;
+        }
+    
+        form.addEventListener('submit', function (e) {
+            e.preventDefault(); // prevent default immediately
+            const collected = collectAnswers();
+    
+            // ⏳ Slight delay to ensure value is written to DOM
+            setTimeout(() => {
+                submitting = true;
+                form.submit();
+            }, 50);
+        });
+    
+        // Drag-and-drop logic
+        document.querySelectorAll('.draggable').forEach(el => {
+            el.addEventListener('dragstart', (e) => {
+                e.dataTransfer.setData('text/plain', e.target.dataset.key);
+                e.dataTransfer.effectAllowed = "move";
+                el.classList.add('dragging');
+            });
+    
+            el.addEventListener('dragend', () => {
+                el.classList.remove('dragging');
+            });
+        });
+    
+        document.querySelectorAll('.dropzone').forEach(zone => {
+            zone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                zone.classList.add('drag-over');
+            });
+    
+            zone.addEventListener('dragleave', () => {
+                zone.classList.remove('drag-over');
+            });
+    
+            zone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                zone.classList.remove('drag-over');
+                const sourceKey = e.dataTransfer.getData('text/plain');
+                const questionId = zone.closest('.drag-drop-wrapper').dataset.questionId;
+                const matchField = document.getElementById(`match-q${questionId}`);
+    
+                // display update
+                const targetKey = zone.dataset.key;
+                zone.innerHTML = `${targetKey}<br><strong>${sourceKey}</strong>`;
+    
+                // Build and update response map
+                let current = {};
+                const raw = matchField.value;
+                raw.split(",").forEach(pair => {
+                    if (pair.includes("->")) {
+                        const [k, v] = pair.split("->");
+                        current[k.trim()] = v.trim();
+                    }
+                });
+    
+                current[sourceKey] = targetKey;
+    
+                // Save updated
+                matchField.value = Object.entries(current).map(([k, v]) => `${k}->${v}`).join(",") + ",";
+            });
+        });
+    
+        {% if use_timer %}
+        const timerEl = document.getElementById('timer');
+        const startTimeStr = document.querySelector('input[name="start_time"]').value;
+        const startTime = new Date(startTimeStr);
+        const endTime = new Date(startTime.getTime() + 90 * 60 * 1000);
+    
+        function updateTimer() {
+            const now = new Date();
+            const diff = endTime - now;
+    
+            if (diff <= 0) {
+                timerEl.textContent = "Time left: 0m 00s";
+                clearInterval(interval);
+                collectAnswers();
+                submitting = true;
+                form.submit();
+                return;
+            }
+    
+            const totalSeconds = Math.floor(diff / 1000);
+            const minutes = Math.floor(totalSeconds / 60);
+            const seconds = totalSeconds % 60;
+            timerEl.textContent = `Time left: ${minutes}m ${seconds < 10 ? '0' + seconds : seconds}s`;
+        }
+    
+        const interval = setInterval(updateTimer, 1000);
+        updateTimer();
+    
+        window.addEventListener('beforeunload', function (e) {
+            if (!submitting) {
+                e.preventDefault();
+                e.returnValue = '';
             }
         });
-
-        answersEl.value = JSON.stringify(data);
-        submitting = true;
-        form.submit();
-    }
-
-    form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        submitAnswers();
+        {% endif %}
     });
+    </script>
+    
+    
 
-    const interval = setInterval(updateTimer, 1000);
-    updateTimer();
-
-    window.addEventListener('beforeunload', function (e) {
-        if (!submitting) {
-            e.preventDefault();
-            e.returnValue = '';
-        }
-    });
-
-    // Drag-and-drop logic
-    document.querySelectorAll('.draggable').forEach(el => {
-        el.addEventListener('dragstart', (e) => {
-            e.dataTransfer.setData('text/plain', e.target.dataset.key);
-            e.dataTransfer.effectAllowed = "move";
-            e.target.classList.add('dragging');
-        });
-
-        el.addEventListener('dragend', () => {
-            el.classList.remove('dragging');
-        });
-    });
-
-    document.querySelectorAll('.dropzone').forEach(zone => {
-        zone.addEventListener('dragover', (e) => {
-            e.preventDefault();
-            zone.classList.add('drag-over');
-        });
-
-        zone.addEventListener('dragleave', () => {
-            zone.classList.remove('drag-over');
-        });
-
-        zone.addEventListener('drop', (e) => {
-            e.preventDefault();
-            zone.classList.remove('drag-over');
-            const sourceKey = e.dataTransfer.getData('text/plain');
-            const questionId = zone.closest('.drag-drop-wrapper').dataset.questionId;
-            zone.innerHTML = `${zone.textContent.split('\n')[0]}<br><strong>${sourceKey}</strong>`;
-            const matchField = document.getElementById(`match-q${questionId}`);
-            matchField.value += `${sourceKey}->${zone.dataset.key},`;
-        });
-    });
-});
-</script>
 {% endblock %}
