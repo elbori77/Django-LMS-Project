@@ -137,8 +137,8 @@ EMAIL_HOST = "mail.trythiscode.com"
 EMAIL_PORT = 465
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-EMAIL_HOST_USER = 'no-reply@trythiscode.com'
-EMAIL_HOST_PASSWORD = 'P$IY8MkXMMiy'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 # Inactivity timeout in seconds (e.g., 15 minutes = 900 seconds)
