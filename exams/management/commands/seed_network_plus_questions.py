@@ -54,4 +54,4 @@ class Command(BaseCommand):
                 question.save()
                 count += 1
 
-        self.stdout.write(self.style.SUCCESS(f"✅ Seeded {count} Network+ questions."))
+        self.stdout.write(self.style.SUCCESS(f"Seeded {count} Network+ questions."))
